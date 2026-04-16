@@ -249,6 +249,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 163.83) (xy 118.11 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e0e9b2-d516-43a5-85ce-2327c491cdcc")
+	)
+	(wire
+		(pts
 			(xy 99.06 88.9) (xy 99.06 148.59)
 		)
 		(stroke
@@ -449,6 +459,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 127) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b390d688-7d4b-4354-9073-50a109efb71a")
+	)
+	(wire
+		(pts
 			(xy 60.96 148.59) (xy 99.06 148.59)
 		)
 		(stroke
@@ -486,6 +506,16 @@
 			(type default)
 		)
 		(uuid "c487bdf6-a900-4404-b87f-c08efe6a80c5")
+	)
+	(wire
+		(pts
+			(xy 60.96 163.83) (xy 118.11 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82a6be6-1b3a-4b8b-ac3e-3d1aefb0ac81")
 	)
 	(wire
 		(pts
@@ -821,7 +851,7 @@
 	)
 	(sheet
 		(at 36.83 111.125)
-		(size 24.13 50.8)
+		(size 24.13 55.245)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -845,7 +875,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 36.83 162.5096 0)
+			(at 36.83 166.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,6 +1063,16 @@
 				(justify right)
 			)
 		)
+		(pin "VBUS_OUT" input
+			(at 60.96 163.83 0)
+			(uuid "a88272f6-4d15-439c-83f2-9d31d74b6ceb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4"
@@ -1136,7 +1176,7 @@
 			)
 		)
 		(pin "VBUS_OUT" output
-			(at 121.92 123.825 180)
+			(at 121.92 127 180)
 			(uuid "4e78819c-26f9-45c7-a6ce-55fafb3b3f3a")
 			(effects
 				(font
