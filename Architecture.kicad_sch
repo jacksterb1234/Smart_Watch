@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "003db457-0790-4a68-b5fd-a8242b5e70f7")
 	(paper "A4")
 	(lib_symbols)
@@ -670,11 +670,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "21b6cdb5-38b5-44be-b4b2-bd0733b126a2")
 		(property "Sheetname" "Peripherals"
 			(at 36.83 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,6 +686,8 @@
 		)
 		(property "Sheetfile" "Peripherals.kicad_sch"
 			(at 36.83 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,11 +866,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "30bd5bb3-3a33-4afa-baf2-7512abedf580")
 		(property "Sheetname" "MCU"
 			(at 36.83 110.4134 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,6 +882,8 @@
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
 			(at 36.83 166.9546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,11 +1102,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "88559da1-41ec-4d01-a245-44d6dbccae3b")
 		(property "Sheetname" "Power"
 			(at 121.92 76.1234 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,6 +1118,8 @@
 		)
 		(property "Sheetfile" "Power.kicad_sch"
 			(at 121.92 133.2996 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
