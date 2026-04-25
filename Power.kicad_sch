@@ -4493,6 +4493,16 @@
 		)
 		(uuid "1a3d55a3-31b6-464f-8a2b-fd6ebd95bfd9")
 	)
+	(label "VSET2"
+		(at 87.63 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5812d8d0-0dc6-4ec7-b5dc-e97b8a1edfe0")
+	)
 	(label "SW2"
 		(at 170.18 109.22 180)
 		(effects
@@ -4502,6 +4512,16 @@
 			(justify right bottom)
 		)
 		(uuid "7a208274-070e-44d9-93d1-f58839b67916")
+	)
+	(label "VSET1"
+		(at 87.63 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b402476-f1f4-4c5a-b20a-266976b0ee41")
 	)
 	(hierarchical_label "VSYS"
 		(shape output)

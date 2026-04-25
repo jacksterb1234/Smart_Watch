@@ -7185,6 +7185,16 @@
 		)
 		(uuid "6432be14-144b-45da-b80a-ecebe3b4bdc5")
 	)
+	(label "ISET"
+		(at 266.7 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b4938f1-b061-46ab-9354-4faf82fac4cc")
+	)
 	(label "SWDIO"
 		(at 195.58 109.22 180)
 		(effects
@@ -7274,6 +7284,16 @@
 			(justify left bottom)
 		)
 		(uuid "8e6bbe47-785d-4c19-aa1a-73b926600e5b")
+	)
+	(label "CLK1"
+		(at 113.03 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90ff1fbb-d3ff-4635-8940-07d7595cee94")
 	)
 	(label "DISPLAY_DC"
 		(at 213.36 91.44 0)
@@ -7394,6 +7414,16 @@
 			(justify left bottom)
 		)
 		(uuid "d5a79625-4002-4d29-b9b2-12e39eb2908b")
+	)
+	(label "CLK2"
+		(at 113.03 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d61267ea-f6aa-43a3-b611-3d0e347aef30")
 	)
 	(label "SWDIO"
 		(at 114.3 171.45 0)

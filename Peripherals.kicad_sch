@@ -4964,7 +4964,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 107.95) (xy 229.87 107.95)
+			(xy 226.06 107.95) (xy 233.68 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5604,7 +5604,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 105.41) (xy 229.87 105.41)
+			(xy 226.06 105.41) (xy 233.68 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5641,6 +5641,26 @@
 			(type default)
 		)
 		(uuid "fe11cbac-87a0-46b1-8c89-ac592094e1ff")
+	)
+	(label "MOTOR+"
+		(at 226.06 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e69d7a8-ae94-4833-918a-13896ed39627")
+	)
+	(label "MOTOR-"
+		(at 226.06 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "749cc8f8-58c8-4b6a-92e4-f6e3723546b9")
 	)
 	(hierarchical_label "QSPI_CS"
 		(shape input)
@@ -6390,7 +6410,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 234.95 105.41 0)
+		(at 238.76 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6401,7 +6421,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d6d6309-aa20-4170-86c0-7cbf6d697ffd")
 		(property "Reference" "J2"
-			(at 236.982 105.4678 0)
+			(at 240.792 105.4678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6412,7 +6432,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 236.982 107.8921 0)
+			(at 240.792 107.8921 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6423,7 +6443,7 @@
 			)
 		)
 		(property "Footprint" "PAD_CONNECTOR:1x02_1x1mm"
-			(at 234.95 105.41 0)
+			(at 238.76 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6434,7 +6454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 105.41 0)
+			(at 238.76 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6445,7 +6465,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 234.95 105.41 0)
+			(at 238.76 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
