@@ -13,5 +13,5 @@
 	(lib (name "B2B_PH_SM4_TB") (type "KiCad") (uri "${KIPRJMOD}/B2B_PH_SM4_TB") (options "") (descr ""))
 	(lib (name "SKRTLAE010") (type "KiCad") (uri "${KIPRJMOD}/SKRTLAE010") (options "") (descr ""))
 	(lib (name "ZIF") (type "KiCad") (uri "${KIPRJMOD}/ZIF.pretty") (options "") (descr ""))
-	(lib (name "SKRPACE010") (type "KiCad") (uri "${SMART_WATCH}/SKRPACE010") (options "") (descr ""))
+	(lib (name "SKRPACE") (type "KiCad") (uri "${SMART_WATCH}/SKRPACE010/KiCADv6/footprints.pretty") (options "") (descr ""))
 )
