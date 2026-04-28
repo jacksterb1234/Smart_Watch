@@ -10072,7 +10072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010"
+		(property "Footprint" "Smart_Watch:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010_3D"
 			(at 27.94 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10952,7 +10952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010"
+		(property "Footprint" "Smart_Watch:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010_3D"
 			(at 27.94 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11116,7 +11116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010"
+		(property "Footprint" "Smart_Watch:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010_3D"
 			(at 27.94 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11750,7 +11750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010"
+		(property "Footprint" "Smart_Watch:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010_3D"
 			(at 27.94 171.45 0)
 			(hide yes)
 			(show_name no)
