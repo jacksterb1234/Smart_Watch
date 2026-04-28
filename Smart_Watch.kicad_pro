@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.25,
+          "width": 0.475
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -482,8 +482,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Smart_Watch"
+    ],
+    "pinned_symbol_libs": [
+      "Smart_Watch"
+    ]
   },
   "meta": {
     "filename": "Smart_Watch.kicad_pro",
@@ -976,7 +980,7 @@
         "uuid": "69095a4d-0a57-4fa3-aecb-1cfd89eedc11"
       }
     ],
-    "used_designators": "SW7",
+    "used_designators": "",
     "variants": [
       {
         "name": "No Trans"
