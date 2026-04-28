@@ -5,340 +5,6 @@
 	(uuid "ffa97fb4-6bd6-4acf-a86d-67cca951d6d9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2026-04-16_01-05-19:LQM2HPN2R2MG0L"
-			(body_styles demorgan)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 6.985 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "LQM2HPN2R2MG0L"
-				(at 6.985 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "IND_LQM2HPN2R2MG0L_MUR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "LQM2HPN2R2MG0L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LQM2HPN2R2MG0L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "IND_LQM2HPN2R2MG0L_MUR IND_LQM2HPN2R2MG0L_MUR-M IND_LQM2HPN2R2MG0L_MUR-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LQM2HPN2R2MG0L_0_1"
-				(arc
-					(start 4.445 -0.635)
-					(mid 5.08 -0.0027)
-					(end 5.715 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.715 -0.635)
-					(mid 6.35 -0.0027)
-					(end 6.985 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.985 -0.635)
-					(mid 7.62 -0.0027)
-					(end 8.255 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 8.255 -0.635)
-					(mid 8.89 -0.0027)
-					(end 9.525 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LQM2HPN2R2MG0L_1_1"
-				(pin passive line
-					(at 3.175 -0.635 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.795 -0.635 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LQM2HPN2R2MG0L_1_2"
-				(arc
-					(start -1.27 10.16)
-					(mid -2.5344 11.43)
-					(end -1.27 12.7)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 7.62)
-					(mid -2.5344 8.89)
-					(end -1.27 10.16)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 5.08)
-					(mid -2.5344 6.35)
-					(end -1.27 7.62)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 2.54)
-					(mid -2.5344 3.81)
-					(end -1.27 5.08)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 12.7) (xy -1.27 12.7)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy -1.27 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -480,6 +146,186 @@
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0.762 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "L_Small"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_Small_0_1"
+				(arc
+					(start 0 2.032)
+					(mid 0.5058 1.524)
+					(end 0 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.016)
+					(mid 0.5058 0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 -0.508)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -1.524)
+					(end 0 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.508)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.508)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3880,7 +3726,13 @@
 		(at 173.99 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "23dbdb2e-3ba3-48e0-9b17-ea0472b78010")
+		(uuid "01ecb329-0408-4443-b4ef-5cd755f9e6c0")
+	)
+	(junction
+		(at 173.99 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15d47c3d-c07e-4293-b3ce-93a2c8d5bdfc")
 	)
 	(junction
 		(at 177.8 63.5)
@@ -3929,12 +3781,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a46f85cb-56ee-4d30-9329-e0fa13a7aed8")
-	)
-	(junction
-		(at 172.72 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b728c4e6-a098-4d87-8b4c-72706713e9d2")
 	)
 	(junction
 		(at 167.64 63.5)
@@ -4008,6 +3854,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 107.95) (xy 173.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c7423c-0a36-41d5-b73b-56a8af234531")
+	)
+	(wire
+		(pts
+			(xy 173.99 81.28) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04384aee-bb6f-415a-aa06-0d588abcd74a")
+	)
+	(wire
+		(pts
 			(xy 101.6 39.37) (xy 101.6 58.42)
 		)
 		(stroke
@@ -4028,6 +3894,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 87.63) (xy 167.64 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1498e45a-fae4-4a3b-a15b-1fb95cc5efd7")
+	)
+	(wire
+		(pts
+			(xy 173.99 109.22) (xy 167.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15cfb175-fafc-40d3-85ba-24b91fcfda65")
+	)
+	(wire
+		(pts
 			(xy 55.88 76.2) (xy 55.88 81.28)
 		)
 		(stroke
@@ -4045,16 +3931,6 @@
 			(type default)
 		)
 		(uuid "267c2653-875a-4428-a031-398b53612f21")
-	)
-	(wire
-		(pts
-			(xy 173.99 80.01) (xy 184.15 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aaf726f-be68-4c6f-850e-0a3fb82fe7b6")
 	)
 	(wire
 		(pts
@@ -4085,16 +3961,6 @@
 			(type default)
 		)
 		(uuid "321a467f-6081-41a1-93e1-e086338e388c")
-	)
-	(wire
-		(pts
-			(xy 167.64 87.63) (xy 173.99 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34930462-66b8-4764-bedc-e4286e40caa4")
 	)
 	(wire
 		(pts
@@ -4138,16 +4004,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 109.22) (xy 172.72 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ad43bbf-e330-4bf6-b6cb-0665ededce1a")
-	)
-	(wire
-		(pts
 			(xy 195.58 90.17) (xy 199.39 90.17)
 		)
 		(stroke
@@ -4178,7 +4034,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 101.6) (xy 184.15 101.6)
+			(xy 167.64 101.6) (xy 173.99 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4218,6 +4074,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 102.87) (xy 173.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c29576d-3046-440f-961b-bff2047c49c9")
+	)
+	(wire
+		(pts
+			(xy 173.99 101.6) (xy 184.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0756c3-9202-437d-88f6-d21d8fe35974")
+	)
+	(wire
+		(pts
 			(xy 101.6 71.12) (xy 101.6 66.04)
 		)
 		(stroke
@@ -4238,6 +4114,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 86.36) (xy 173.99 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b276220-f530-4fdc-b775-b6c8b91e9109")
+	)
+	(wire
+		(pts
 			(xy 92.71 133.35) (xy 101.6 133.35)
 		)
 		(stroke
@@ -4255,6 +4141,16 @@
 			(type default)
 		)
 		(uuid "a7595bfb-9dcf-4b1c-8b71-f339327a45d8")
+	)
+	(wire
+		(pts
+			(xy 173.99 80.01) (xy 184.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a814c4aa-2d80-4c77-b62c-5fd3fe95ff00")
 	)
 	(wire
 		(pts
@@ -4285,16 +4181,6 @@
 			(type default)
 		)
 		(uuid "afdd3578-c020-4345-91f8-d691af127e17")
-	)
-	(wire
-		(pts
-			(xy 167.64 101.6) (xy 172.72 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2126402-9a1a-4d3a-856c-69514beee74c")
 	)
 	(wire
 		(pts
@@ -4573,6 +4459,110 @@
 			(justify left)
 		)
 		(uuid "fb9257c8-f110-4b5a-9313-383187cd28c8")
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 173.99 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01b1e91d-c761-4473-8a57-efda93509d4a")
+		(property "Reference" "L3"
+			(at 175.1308 82.6078 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uH"
+			(at 175.1308 85.0321 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 173.99 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 173.99 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current Limit" "1.8A"
+			(at 173.99 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "DFE201612E-2R2M=P2"
+			(at 173.99 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd377fed-2f87-44ba-a7e9-e848dba5d858")
+		)
+		(pin "2"
+			(uuid "edf4848c-9d51-49d2-be1c-34adec891a83")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+1V8")
@@ -4985,116 +4975,6 @@
 					(unit 1)
 					(variant
 						(name "No Trans")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2026-04-16_01-05-19:LQM2HPN2R2MG0L")
-		(at 174.625 76.835 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "29d50833-c554-4ea7-b38e-02fb1ec47a8c")
-		(property "Reference" "L1"
-			(at 170.688 84.074 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LQM2HPN2R2MG0L"
-			(at 175.2572 85.2364 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LQM:IND_LQM2HPN2R2MG0L_MUR"
-			(at 174.625 76.835 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "LQM2HPN2R2MG0L"
-			(at 174.625 76.835 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 174.625 76.835 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Inductance" "2.2uH"
-			(at 178.054 82.042 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Current Limit" "1.3A"
-			(at 177.546 84.582 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "45e24f18-91b9-4284-af0f-287487986fb1")
-		)
-		(pin "1"
-			(uuid "53be300a-f8b5-462e-95e6-20c76035eba2")
-		)
-		(instances
-			(project "Smart_Watch"
-				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
-					(reference "L1")
-					(unit 1)
-					(variant
-						(name "No Trans")
-					)
-					(variant
-						(name "W Trans")
 					)
 				)
 			)
@@ -6004,6 +5884,110 @@
 					(variant
 						(name "No Trans")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 173.99 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4749fe1f-df79-4446-a1b9-f9b509a7120b")
+		(property "Reference" "L4"
+			(at 175.1308 104.1978 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uH"
+			(at 175.1308 106.6221 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 173.99 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 173.99 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current Limit" "1.8A"
+			(at 173.99 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "DFE201612E-2R2M=P2"
+			(at 173.99 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0add193-9add-4794-88ee-2a9efb5aae9e")
+		)
+		(pin "2"
+			(uuid "1c7e3f2f-cd94-476e-95a8-5a385fcb8487")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
+					(reference "L4")
+					(unit 1)
 				)
 			)
 		)
@@ -9555,116 +9539,6 @@
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
 					(reference "NT2")
-					(unit 1)
-					(variant
-						(name "No Trans")
-					)
-					(variant
-						(name "W Trans")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2026-04-16_01-05-19:LQM2HPN2R2MG0L")
-		(at 173.355 98.425 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e922590e-29f6-47d9-9f23-145d673d2e76")
-		(property "Reference" "L2"
-			(at 169.418 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LQM2HPN2R2MG0L"
-			(at 173.9872 106.8264 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LQM:IND_LQM2HPN2R2MG0L_MUR"
-			(at 173.355 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "LQM2HPN2R2MG0L"
-			(at 173.355 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 173.355 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Inductance" "2.2uH"
-			(at 176.784 103.632 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Current Limit" "1.3A"
-			(at 176.276 106.172 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fba4d291-9fba-4eaf-8a3e-8a37fd8b6a83")
-		)
-		(pin "1"
-			(uuid "d003ba51-b118-4869-9636-ace24ec10ce9")
-		)
-		(instances
-			(project "Smart_Watch"
-				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
-					(reference "L2")
 					(unit 1)
 					(variant
 						(name "No Trans")
