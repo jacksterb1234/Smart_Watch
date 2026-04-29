@@ -5323,7 +5323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SKRPACE:SW_SKRPACE010_AAL"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 77.47 119.38 0)
 			(hide yes)
 			(show_name no)
