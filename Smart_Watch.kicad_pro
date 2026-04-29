@@ -922,6 +922,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPTION",
+          "name": "OPTION",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -980,7 +986,7 @@
         "uuid": "69095a4d-0a57-4fa3-aecb-1cfd89eedc11"
       }
     ],
-    "used_designators": "#PWR75,L3-5,C12,J1,J5,U7-8",
+    "used_designators": "J5-6",
     "variants": [
       {
         "name": "No Trans"
