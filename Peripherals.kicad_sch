@@ -4277,16 +4277,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 55.88) (xy 43.18 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32012db5-cb54-48e6-b762-61827d8dbd62")
-	)
-	(wire
-		(pts
 			(xy 161.29 55.88) (xy 177.8 55.88)
 		)
 		(stroke
@@ -4427,7 +4417,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 41.91) (xy 43.18 41.91)
+			(xy 43.18 41.91) (xy 60.96 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4447,23 +4437,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 39.37) (xy 52.07 39.37)
+			(xy 43.18 39.37) (xy 48.26 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "78cb06ba-d8d5-4b9b-a76e-fc8e2f446040")
-	)
-	(wire
-		(pts
-			(xy 52.07 58.42) (xy 43.18 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a9fe5d1-c7f6-440b-9484-b330f32793a7")
 	)
 	(wire
 		(pts
@@ -4557,6 +4537,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 34.29) (xy 57.15 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9304895b-ba23-4a0d-8e2a-ab7a32e99a9a")
+	)
+	(wire
+		(pts
 			(xy 256.54 36.83) (xy 256.54 45.72)
 		)
 		(stroke
@@ -4647,6 +4637,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 55.88) (xy 57.15 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6263816-6c26-439a-b4e3-14f4c8638770")
+	)
+	(wire
+		(pts
 			(xy 50.8 182.88) (xy 50.8 186.69)
 		)
 		(stroke
@@ -4654,6 +4654,16 @@
 			(type default)
 		)
 		(uuid "c768822f-464e-44db-8034-53ac452d48e4")
+	)
+	(wire
+		(pts
+			(xy 43.18 58.42) (xy 57.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34c0e6b-2554-4769-b73c-0244174bf853")
 	)
 	(wire
 		(pts
@@ -4674,6 +4684,16 @@
 			(type default)
 		)
 		(uuid "de89d360-2b6d-40de-a7e2-3332f2265b1e")
+	)
+	(wire
+		(pts
+			(xy 52.07 36.83) (xy 52.07 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47e8970-d862-4b36-b928-5a07e05df649")
 	)
 	(wire
 		(pts
@@ -4785,55 +4805,16 @@
 		)
 		(uuid "749cc8f8-58c8-4b6a-92e4-f6e3723546b9")
 	)
-	(label "SCL"
-		(at 52.07 55.88 180)
+	(hierarchical_label "MAX_INT"
+		(shape input)
+		(at 48.26 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "8cdcb5c8-86f2-44f4-b2f5-64a40d77d25e")
-	)
-	(label "+1V8"
-		(at 52.07 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9691b9e0-9cc4-43a9-82bf-e6c06295214c")
-	)
-	(label "GND"
-		(at 52.07 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d04df44e-8c35-488a-b16e-6e4e029a3eda")
-	)
-	(label "SDA"
-		(at 52.07 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d52089cb-b9f1-4a40-8d19-1051a270d664")
-	)
-	(label "MAX_INT"
-		(at 52.07 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f1013fe2-e934-434e-9970-8cab5ada28da")
+		(uuid "05318d98-b931-4cc3-ab77-dac8560b4d97")
 	)
 	(hierarchical_label "QSPI_CS"
 		(shape input)
@@ -4901,6 +4882,17 @@
 		)
 		(uuid "31e5db1e-f2e1-4c49-80fc-0b385ed6da63")
 	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 57.15 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d9adddf-cf67-4daa-8b66-18d62219dc0b")
+	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 57.15 186.69 0)
@@ -4911,6 +4903,17 @@
 			(justify left)
 		)
 		(uuid "5184102e-80ad-4f65-a9c1-f95ab06e6537")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 57.15 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53db37c0-867e-4a7b-80c6-96eaeb840568")
 	)
 	(hierarchical_label "QSPI_IO0"
 		(shape bidirectional)
@@ -5889,6 +5892,84 @@
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 60.96 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25bf7deb-b5ed-4b9b-9597-6367a9261d03")
+		(property "Reference" "#PWR033"
+			(at 60.96 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 60.96 37.7769 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 60.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ff0252e-0b4c-4fe6-aa05-aa29a783bec5")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7743,6 +7824,85 @@
 					(variant
 						(name "No Trans")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ba733cd-260e-4ac6-89e9-51241c087d95")
+		(property "Reference" "#PWR09"
+			(at 57.15 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.055 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70980121-7ec7-40eb-b8d3-2fada885d1eb")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "#PWR09")
+					(unit 1)
 				)
 			)
 		)

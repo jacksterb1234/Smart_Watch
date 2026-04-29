@@ -645,7 +645,7 @@
         "uuid": "49f0e556-777a-4724-8c92-dc192098b240"
       }
     ],
-    "used_designators": "J1-2",
+    "used_designators": "J1-2,#PWR8,#PWR10",
     "variants": [
       {
         "name": "No Trans"
