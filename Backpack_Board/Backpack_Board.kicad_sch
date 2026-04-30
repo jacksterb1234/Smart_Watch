@@ -2744,7 +2744,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2827,7 +2827,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3149,17 +3149,6 @@
 				)
 			)
 		)
-		(property "Price" "0.006USD"
-			(at 115.57 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Process" "SMT"
 			(at 115.57 124.46 0)
 			(hide yes)
@@ -3367,17 +3356,6 @@
 			)
 		)
 		(property "Stock" "9881407"
-			(at 88.9 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.009USD"
 			(at 88.9 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3843,17 +3821,6 @@
 				)
 			)
 		)
-		(property "Price" "0.013USD"
-			(at 107.95 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Process" "SMT"
 			(at 107.95 124.46 0)
 			(hide yes)
@@ -4141,17 +4108,6 @@
 			)
 		)
 		(property "Stock" "11302490"
-			(at 96.52 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.004USD"
 			(at 96.52 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4803,17 +4759,6 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 96.52 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.006USD"
 			(at 96.52 124.46 0)
 			(hide yes)
 			(show_name no)
