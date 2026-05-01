@@ -11913,7 +11913,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce97a253-3cfd-4fd6-9205-d2595e897c15")
 		(property "Reference" "#PWR040"
 			(at 236.22 69.85 0)
@@ -11926,14 +11925,15 @@
 				)
 			)
 		)
-		(property "Value" "1V8"
-			(at 236.22 61.9069 0)
+		(property "Value" "+1V8"
+			(at 232.664 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
