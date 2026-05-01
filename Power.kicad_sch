@@ -7898,7 +7898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Smart_Watch:MOLEX_0781710002"
 			(at 49.53 76.2 0)
 			(hide yes)
 			(show_name no)
