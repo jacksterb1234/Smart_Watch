@@ -641,6 +641,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_Flash:W25Q32JVSS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1343,6 +1485,304 @@
 				)
 			)
 			(symbol "0603,100nF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Capacitors:0603,10uF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.032 1.668 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10uF"
+				(at 2.032 -0.3782 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:C_0603"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C19702"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "9881407"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.009USD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "CL10A106KP8NNNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rated" "10V"
+				(at 2.032 -2.0462 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "±10%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Capacitance" "10uF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temperature Coefficient" "X5R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603,10uF_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603,10uF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.175)
@@ -3363,6 +3803,291 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Smart_Watch:MAX30102EFD_T"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 13.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MAX30102EFD_T"
+				(at -10.16 -19.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Smart_Watch:XDCR_MAX30101EFD_"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Max30102efd+t"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Maxim Integrated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PACKAGE" "OLGA-14 Maxim"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "MAX30102EFD+T"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "AVAILABILITY" "Unavailable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "MAX30102EFD_T_0_0"
+				(rectangle
+					(start -10.16 -15.24)
+					(end 10.16 12.7)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input clock
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VLED+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "VLED+__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Smart_Watch:OPT3004DNPR"
 			(pin_names
 				(offset 0.254)
@@ -3740,6 +4465,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDD"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VDD"
 			(power global)
 			(pin_numbers
@@ -3880,6 +4731,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "HEART RATE MONITOR"
+		(exclude_from_sim no)
+		(at 55.372 19.05 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "13bf3d23-3ca7-4855-8fe8-376f79c9d809")
+	)
 	(text "AMB_LIGHT\n"
 		(exclude_from_sim no)
 		(at 218.694 21.336 0)
@@ -3934,6 +4797,26 @@
 		)
 		(uuid "3f5f1005-6f96-477c-aa6b-e3125733f2af")
 	)
+	(text "VDD DECOUP"
+		(exclude_from_sim no)
+		(at 34.29 64.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4506bd40-d57f-4bc0-a5d2-b0f115a7259a")
+	)
+	(text "VLED+ DECOUP"
+		(exclude_from_sim no)
+		(at 56.134 64.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70774cd4-9af6-45af-b00c-7f470324f542")
+	)
 	(text "BAROMETER"
 		(exclude_from_sim no)
 		(at 46.228 100.584 0)
@@ -3948,7 +4831,7 @@
 	)
 	(text "BACKPACK BOARD \nCONNECTOR"
 		(exclude_from_sim no)
-		(at 44.704 25.4 0)
+		(at 87.884 158.75 0)
 		(effects
 			(font
 				(size 3 3)
@@ -3989,16 +4872,40 @@
 		(uuid "022a6ea6-6e62-429d-a396-a410661161ca")
 	)
 	(junction
+		(at 50.8 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d1b2845-ef49-4773-ac74-47f9def623e3")
+	)
+	(junction
+		(at 31.75 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "344f578e-397d-44e9-83f9-a16cdbdf476a")
+	)
+	(junction
 		(at 43.18 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "377eeb7c-facd-4cfc-b7a5-eac5a1245347")
 	)
 	(junction
+		(at 82.55 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "387686cf-0b22-4567-906d-af541eeb63d2")
+	)
+	(junction
 		(at 182.88 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a9214eb-c803-472d-afac-f24795a89e13")
+	)
+	(junction
+		(at 76.2 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53fc6e2a-5a9b-444b-8cf6-3ad907e2c52c")
 	)
 	(junction
 		(at 227.33 148.59)
@@ -4031,10 +4938,22 @@
 		(uuid "99c498d3-8bc2-4edb-afdb-00bd4f5c9cd8")
 	)
 	(junction
+		(at 39.37 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b12511c-c51f-46b3-a74e-4beeeb8b2f47")
+	)
+	(junction
 		(at 114.3 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e2c6ae8-b446-498d-83e2-d16ec03f2e95")
+	)
+	(junction
+		(at 77.47 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae099158-21b9-4bae-8677-bf81340a2dd2")
 	)
 	(junction
 		(at 195.58 40.64)
@@ -4055,10 +4974,22 @@
 		(uuid "c29047d8-218a-4209-a661-cfbb5ee38315")
 	)
 	(junction
+		(at 50.8 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c41bcdcf-b61e-4b65-9671-120458ee16bd")
+	)
+	(junction
 		(at 256.54 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1f91695-3397-4730-adf2-8b28943485a4")
+	)
+	(junction
+		(at 31.75 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9d821ad-45d6-49a3-b508-99f30ee37e50")
 	)
 	(junction
 		(at 237.49 55.88)
@@ -4111,8 +5042,12 @@
 		(uuid "4acac973-fd39-4647-97d9-cfc154e62a60")
 	)
 	(no_connect
-		(at 43.18 60.96)
+		(at 86.36 190.5)
 		(uuid "550eeafa-e3e6-4b69-ab41-0d3a72416027")
+	)
+	(no_connect
+		(at 72.39 41.91)
+		(uuid "64cc8f8b-f0fe-4895-90bd-46e29e0b189a")
 	)
 	(no_connect
 		(at 114.3 48.26)
@@ -4137,6 +5072,26 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 31.75) (xy 76.2 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028f12a0-8401-4be2-a88e-e4a136cf0c06")
+	)
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 50.8 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c82422-56a4-46bd-b546-a59c3bd0da83")
+	)
+	(wire
+		(pts
 			(xy 193.04 140.97) (xy 194.31 140.97)
 		)
 		(stroke
@@ -4147,6 +5102,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 34.29) (xy 76.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046760db-da56-4c26-97da-41ff3d312a93")
+	)
+	(wire
+		(pts
 			(xy 227.33 135.89) (xy 234.95 135.89)
 		)
 		(stroke
@@ -4154,6 +5119,16 @@
 			(type default)
 		)
 		(uuid "0577f24a-5908-48a3-af73-f0918ea24a37")
+	)
+	(wire
+		(pts
+			(xy 77.47 62.23) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06272849-52f5-4bfa-a3cb-b2d97525f218")
 	)
 	(wire
 		(pts
@@ -4174,6 +5149,16 @@
 			(type default)
 		)
 		(uuid "08a590d6-34ff-407c-9bc4-4ed3d5726ecf")
+	)
+	(wire
+		(pts
+			(xy 27.94 41.91) (xy 39.37 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f5001e-f34c-4895-a1e8-fd3223e688bb")
 	)
 	(wire
 		(pts
@@ -4217,6 +5202,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 34.29) (xy 76.2 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc70084-e312-4385-adb2-c2752a552d07")
+	)
+	(wire
+		(pts
 			(xy 100.33 48.26) (xy 100.33 50.8)
 		)
 		(stroke
@@ -4224,6 +5219,46 @@
 			(type default)
 		)
 		(uuid "13517575-70fe-475b-9e2e-578dc8a9049b")
+	)
+	(wire
+		(pts
+			(xy 31.75 82.55) (xy 39.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1991b2b1-5243-47b5-8e22-b7e49d8ad270")
+	)
+	(wire
+		(pts
+			(xy 41.91 41.91) (xy 39.37 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aef203f-6f73-4f31-a9fa-9562922e6ce9")
+	)
+	(wire
+		(pts
+			(xy 39.37 72.39) (xy 39.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d021932-515e-4ee4-8b17-aa3fecd9e576")
+	)
+	(wire
+		(pts
+			(xy 82.55 62.23) (xy 82.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22bceaee-a246-4864-aaaa-b834817024ba")
 	)
 	(wire
 		(pts
@@ -4277,6 +5312,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 59.69) (xy 82.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3036d403-4b16-466c-8366-42e0d7813501")
+	)
+	(wire
+		(pts
+			(xy 50.8 81.28) (xy 50.8 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330bbb0b-2f02-4614-ae6a-94b58e655107")
+	)
+	(wire
+		(pts
 			(xy 161.29 55.88) (xy 177.8 55.88)
 		)
 		(stroke
@@ -4307,6 +5362,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 72.39) (xy 31.75 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8b8f9a-c91d-457c-b2aa-804c2fd3ecb2")
+	)
+	(wire
+		(pts
+			(xy 72.39 39.37) (xy 76.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be8977d-c555-41bf-8177-40fd2c4ddcfd")
+	)
+	(wire
+		(pts
 			(xy 46.99 114.3) (xy 46.99 127)
 		)
 		(stroke
@@ -4317,6 +5392,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 81.28) (xy 58.42 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f370ea2-74de-48af-92c4-b6fbe71621ce")
+	)
+	(wire
+		(pts
 			(xy 50.8 111.76) (xy 50.8 114.3)
 		)
 		(stroke
@@ -4324,6 +5409,16 @@
 			(type default)
 		)
 		(uuid "4920617b-a5a6-44b5-b9f4-f9dbd87c7223")
+	)
+	(wire
+		(pts
+			(xy 50.8 71.12) (xy 50.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cf4739-0ea7-46ed-aa02-5312cd9dd8d6")
 	)
 	(wire
 		(pts
@@ -4347,6 +5442,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 72.39) (xy 39.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d3c35a-740b-4af3-a6d2-7b0670fcf710")
+	)
+	(wire
+		(pts
 			(xy 237.49 60.96) (xy 237.49 58.42)
 		)
 		(stroke
@@ -4354,6 +5459,16 @@
 			(type default)
 		)
 		(uuid "53da1f8a-8057-4dc4-b891-d72747d124ce")
+	)
+	(wire
+		(pts
+			(xy 39.37 81.28) (xy 39.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5509b016-526b-4d03-9c0b-886ffd30e699")
 	)
 	(wire
 		(pts
@@ -4417,7 +5532,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 41.91) (xy 60.96 41.91)
+			(xy 86.36 175.26) (xy 104.14 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4437,7 +5552,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 39.37) (xy 48.26 39.37)
+			(xy 86.36 172.72) (xy 91.44 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4454,6 +5569,26 @@
 			(type default)
 		)
 		(uuid "7d987311-3749-4b79-835a-5a28b8cc1fe2")
+	)
+	(wire
+		(pts
+			(xy 77.47 57.15) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e771eb3-2ac3-4e0d-ae84-f0c98bd80ad0")
+	)
+	(wire
+		(pts
+			(xy 27.94 46.99) (xy 41.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804a0d37-6a36-45d8-8387-a11e26b6c972")
 	)
 	(wire
 		(pts
@@ -4474,6 +5609,16 @@
 			(type default)
 		)
 		(uuid "8986b807-2ec9-4a87-be07-78df40966e18")
+	)
+	(wire
+		(pts
+			(xy 39.37 39.37) (xy 39.37 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1858b0-add9-43e4-8160-a81d8cf9d725")
 	)
 	(wire
 		(pts
@@ -4517,6 +5662,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 81.28) (xy 31.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc33620-2804-48f4-99b1-0931056f80d6")
+	)
+	(wire
+		(pts
+			(xy 82.55 54.61) (xy 72.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904b8c4c-a060-48e2-98b4-77f4cc3081d5")
+	)
+	(wire
+		(pts
 			(xy 114.3 40.64) (xy 114.3 36.83)
 		)
 		(stroke
@@ -4537,13 +5702,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 34.29) (xy 57.15 34.29)
+			(xy 95.25 167.64) (xy 100.33 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9304895b-ba23-4a0d-8e2a-ab7a32e99a9a")
+	)
+	(wire
+		(pts
+			(xy 50.8 72.39) (xy 58.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8c567b-aff0-476a-8ff7-672798320540")
 	)
 	(wire
 		(pts
@@ -4564,6 +5739,26 @@
 			(type default)
 		)
 		(uuid "a41d963d-b248-4ab1-ac12-b3d0539fa7d7")
+	)
+	(wire
+		(pts
+			(xy 39.37 30.48) (xy 39.37 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61a2700-e4a9-40b4-89ac-ed2858921f71")
+	)
+	(wire
+		(pts
+			(xy 27.94 44.45) (xy 41.91 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc19b58-1428-4e9f-9bd9-fe366474bce2")
 	)
 	(wire
 		(pts
@@ -4617,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 36.83) (xy 52.07 36.83)
+			(xy 86.36 170.18) (xy 95.25 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4637,7 +5832,27 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 55.88) (xy 57.15 55.88)
+			(xy 50.8 82.55) (xy 58.42 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2784565-1af8-4bb9-a3e2-4706ba358904")
+	)
+	(wire
+		(pts
+			(xy 31.75 83.82) (xy 31.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d97771-c0cf-4fc3-bdea-7e1eb85a0c90")
+	)
+	(wire
+		(pts
+			(xy 86.36 185.42) (xy 100.33 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4657,7 +5872,27 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 57.15 58.42)
+			(xy 50.8 72.39) (xy 50.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c970d7ea-d054-4a29-ab51-76bc4e3bc622")
+	)
+	(wire
+		(pts
+			(xy 77.47 59.69) (xy 77.47 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8f7e2b-ffad-4f5b-9412-c697ad6a0a7c")
+	)
+	(wire
+		(pts
+			(xy 86.36 187.96) (xy 100.33 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4677,6 +5912,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 72.39) (xy 58.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0891a4-8cbc-4971-a3d2-49bb35d08218")
+	)
+	(wire
+		(pts
 			(xy 195.58 39.37) (xy 195.58 40.64)
 		)
 		(stroke
@@ -4687,7 +5932,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 36.83) (xy 52.07 34.29)
+			(xy 31.75 71.12) (xy 31.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea1598c-12cd-4210-8548-2c9119fc89c6")
+	)
+	(wire
+		(pts
+			(xy 95.25 170.18) (xy 95.25 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4805,9 +6060,20 @@
 		)
 		(uuid "749cc8f8-58c8-4b6a-92e4-f6e3723546b9")
 	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 27.94 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02e788c2-73c5-49bb-aa33-e0db0e21d5d5")
+	)
 	(hierarchical_label "MAX_INT"
-		(shape input)
-		(at 48.26 39.37 0)
+		(shape output)
+		(at 91.44 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4826,6 +6092,17 @@
 			(justify right)
 		)
 		(uuid "083007cd-984b-420a-899e-e82bf170bee9")
+	)
+	(hierarchical_label "MAX_INT"
+		(shape output)
+		(at 27.94 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0eeb5dd6-9baf-494a-b4eb-3b0e5b02eefa")
 	)
 	(hierarchical_label "QSPI_IO2"
 		(shape bidirectional)
@@ -4884,7 +6161,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 57.15 55.88 0)
+		(at 100.33 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4906,7 +6183,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 57.15 58.42 0)
+		(at 100.33 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5058,6 +6335,17 @@
 		)
 		(uuid "e38bc023-d949-476a-8aba-c23cf5c88aba")
 	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 27.94 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4f82b9e-6aca-4478-ad4e-9fa6365c604a")
+	)
 	(hierarchical_label "QSPI_IO3"
 		(shape bidirectional)
 		(at 110.49 146.05 180)
@@ -5138,17 +6426,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 49.53 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 49.53 139.7 0)
 			(hide yes)
@@ -5194,17 +6471,6 @@
 			)
 		)
 		(property "MP" ""
-			(at 49.53 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
 			(at 49.53 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5273,10 +6539,7 @@
 					(reference "U4")
 					(unit 1)
 					(variant
-						(name "No Trans")
-					)
-					(variant
-						(name "W Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -5425,17 +6688,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 219.71 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 219.71 48.26 0)
 			(hide yes)
@@ -5481,17 +6733,6 @@
 			)
 		)
 		(property "MP" ""
-			(at 219.71 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
 			(at 219.71 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5550,6 +6791,9 @@
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
 					(reference "U2")
 					(unit 1)
+					(variant
+						(name "Backpack")
+					)
 				)
 			)
 		)
@@ -5633,6 +6877,163 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15caab1f-0120-4f4f-ad9c-32afb7851c8c")
+		(property "Reference" "#PWR04"
+			(at 31.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.655 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57bfc2de-3836-4f45-908a-522e1e3a774d")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 31.75 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "176c3334-0dcc-4bf7-b85c-bcc4b59cdf21")
+		(property "Reference" "#PWR07"
+			(at 31.75 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 31.75 66.9869 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 31.75 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79711827-2a90-4e58-9768-0c91c501e724")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 240.03 133.35 0)
 		(unit 1)
@@ -5699,17 +7100,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 240.03 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 240.03 133.35 0)
 			(hide yes)
@@ -5765,17 +7155,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 240.03 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 240.03 133.35 0)
 			(hide yes)
@@ -5810,10 +7189,7 @@
 					(reference "J2")
 					(unit 1)
 					(variant
-						(name "No Trans")
-					)
-					(variant
-						(name "W Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -5899,7 +7275,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 60.96 41.91 0)
+		(at 104.14 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5910,7 +7286,7 @@
 		(fields_autoplaced yes)
 		(uuid "25bf7deb-b5ed-4b9b-9597-6367a9261d03")
 		(property "Reference" "#PWR033"
-			(at 60.96 45.72 0)
+			(at 104.14 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5921,7 +7297,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 60.96 37.7769 0)
+			(at 104.14 171.1269 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5931,7 +7307,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 41.91 0)
+			(at 104.14 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5942,7 +7318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 41.91 0)
+			(at 104.14 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5953,7 +7329,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 60.96 41.91 0)
+			(at 104.14 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5970,6 +7346,84 @@
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c140320-55b9-4951-acae-9701b050d01c")
+		(property "Reference" "#PWR02"
+			(at 77.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.628 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58974d20-a8f8-4feb-b71c-4e42f844d622")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6054,17 +7508,6 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 161.29 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.006USD"
 			(at 161.29 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6185,17 +7628,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 161.29 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 161.29 59.69 0)
 			(hide yes)
@@ -6251,17 +7683,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 161.29 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 161.29 59.69 0)
 			(hide yes)
@@ -6296,7 +7717,7 @@
 					(reference "C6")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -6658,17 +8079,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 265.43 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 265.43 134.62 0)
 			(hide yes)
@@ -6724,17 +8134,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 265.43 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 265.43 134.62 0)
 			(hide yes)
@@ -6769,10 +8168,7 @@
 					(reference "M1")
 					(unit 1)
 					(variant
-						(name "No Trans")
-					)
-					(variant
-						(name "W Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -6936,7 +8332,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 38.1 39.37 0)
+		(at 81.28 172.72 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6944,10 +8340,10 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "437c6615-1600-4fb2-be1e-ba7d637ea4b9")
 		(property "Reference" "J5"
-			(at 38.1 47.3245 0)
+			(at 81.28 180.6745 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6957,7 +8353,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 38.1 44.9002 0)
+			(at 81.28 178.2502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6967,7 +8363,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Left"
-			(at 38.1 39.37 0)
+			(at 81.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6978,7 +8374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 39.37 0)
+			(at 81.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6989,18 +8385,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 38.1 39.37 0)
+			(at 81.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7011,7 +8396,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 38.1 39.37 0)
+			(at 81.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7022,7 +8407,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 38.1 39.37 0)
+			(at 81.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7033,7 +8418,7 @@
 			)
 		)
 		(property "Inductance" ""
-			(at 38.1 39.37 0)
+			(at 81.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7044,7 +8429,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 38.1 39.37 0)
+			(at 81.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7055,18 +8440,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 38.1 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 38.1 39.37 0)
+			(at 81.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7077,7 +8451,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 38.1 39.37 0)
+			(at 81.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7088,7 +8462,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 38.1 39.37 0)
+			(at 81.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7112,13 +8486,234 @@
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
 					(reference "J5")
 					(unit 1)
+					(variant
+						(name "Backpack")
+						(dnp no)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(at 39.37 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45623bbe-5414-42b8-9a75-310b6de5df90")
+		(property "Reference" "C2"
+			(at 41.402 75.802 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 41.402 77.8482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 41.148 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "70324515"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CC0603KRX7R9BB104"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 41.402 79.5162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b3473c5e-c3e2-4046-a570-9584f4fc6ca2")
+		)
+		(pin "1"
+			(uuid "e215aa83-0fe3-4e9b-ab88-2cd84cd7eb50")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "C2")
+					(unit 1)
+					(variant
+						(name "Backpack")
+					)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 38.1 58.42 0)
+		(at 81.28 187.96 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7126,10 +8721,10 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "47b9864c-d762-4dd6-b93c-fcb258cd6d05")
 		(property "Reference" "J6"
-			(at 38.1 66.3745 0)
+			(at 81.28 195.9145 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7139,7 +8734,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 38.1 63.9502 0)
+			(at 81.28 193.4902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7149,7 +8744,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Left"
-			(at 38.1 58.42 0)
+			(at 81.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7160,7 +8755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 58.42 0)
+			(at 81.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7171,18 +8766,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 38.1 58.42 0)
+			(at 81.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7193,7 +8777,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 38.1 58.42 0)
+			(at 81.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7204,7 +8788,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 38.1 58.42 0)
+			(at 81.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7215,7 +8799,7 @@
 			)
 		)
 		(property "Inductance" ""
-			(at 38.1 58.42 0)
+			(at 81.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7226,7 +8810,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 38.1 58.42 0)
+			(at 81.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7237,18 +8821,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 38.1 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 38.1 58.42 0)
+			(at 81.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7259,7 +8832,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 38.1 58.42 0)
+			(at 81.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7270,7 +8843,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 38.1 58.42 0)
+			(at 81.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7294,6 +8867,10 @@
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
 					(reference "J6")
 					(unit 1)
+					(variant
+						(name "Backpack")
+						(dnp no)
+					)
 				)
 			)
 		)
@@ -7364,17 +8941,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 210.82 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 210.82 140.97 0)
 			(hide yes)
@@ -7420,17 +8986,6 @@
 			)
 		)
 		(property "MP" ""
-			(at 210.82 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
 			(at 210.82 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7498,6 +9053,9 @@
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
 					(reference "U12")
 					(unit 1)
+					(variant
+						(name "Backpack")
+					)
 				)
 			)
 		)
@@ -7580,17 +9138,6 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 40.64 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.006USD"
 			(at 40.64 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7711,17 +9258,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 40.64 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 40.64 118.11 0)
 			(hide yes)
@@ -7777,17 +9313,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 40.64 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 40.64 118.11 0)
 			(hide yes)
@@ -7822,15 +9347,15 @@
 					(reference "C8")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 57.15 34.29 0)
+		(lib_id "power:GNDD")
+		(at 82.55 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7839,9 +9364,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5ba733cd-260e-4ac6-89e9-51241c087d95")
-		(property "Reference" "#PWR09"
-			(at 57.15 40.64 0)
+		(uuid "4bf9b44e-9e0e-4787-8f6c-9a6e03ea1a03")
+		(property "Reference" "#PWR076"
+			(at 82.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7851,8 +9376,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 59.055 35.56 0)
+		(property "Value" "PGND3"
+			(at 84.582 63.3095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7863,7 +9388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 34.29 0)
+			(at 82.55 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7874,7 +9399,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 34.29 0)
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd0350e2-3f0a-466f-9c88-28c2e110c44b")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ba733cd-260e-4ac6-89e9-51241c087d95")
+		(property "Reference" "#PWR09"
+			(at 100.33 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.235 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7885,7 +9489,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 34.29 0)
+			(at 100.33 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7903,6 +9507,474 @@
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
 					(reference "#PWR09")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(at 58.42 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6131ad1e-9258-4d8e-865d-bbbb979d0c27")
+		(property "Reference" "C4"
+			(at 60.452 75.802 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 60.452 77.8482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 56.642 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "70324515"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CC0603KRX7R9BB104"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 60.452 79.5162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a91d1c8-6619-4b2b-8e9d-d33c5635442a")
+		)
+		(pin "2"
+			(uuid "15709ce0-816d-4676-b6a2-9439f37e9825")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "C4")
+					(unit 1)
+					(variant
+						(name "Backpack")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0603,4.7kΩ")
+		(at 39.37 35.56 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66a84271-a538-4dab-9de5-99ae56e91e3b")
+		(property "Reference" "R3"
+			(at 37.5921 34.726 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 37.5921 36.7722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 37.592 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 4.7kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "11302490"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "0603WAF4701T5E"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "4.7kΩ"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power(Watts)" "100mW"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload Voltage (Max)" "75V"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 39.37 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d4477df-acab-46c9-ad18-da59fd460905")
+		)
+		(pin "2"
+			(uuid "8de31b4b-1a27-421f-a717-7bcdca737e43")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "R3")
+					(unit 1)
+					(variant
+						(name "Backpack")
+					)
 				)
 			)
 		)
@@ -8071,17 +10143,6 @@
 				)
 			)
 		)
-		(property "Price" "0.004USD"
-			(at 43.18 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Process" "SMT"
 			(at 43.18 179.07 0)
 			(hide yes)
@@ -8225,17 +10286,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 43.18 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 43.18 179.07 90)
 			(hide yes)
@@ -8291,17 +10341,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 43.18 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 43.18 179.07 90)
 			(hide yes)
@@ -8336,7 +10375,7 @@
 					(reference "R2")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -8499,6 +10538,169 @@
 		)
 	)
 	(symbol
+		(lib_id "Smart_Watch:MAX30102EFD_T")
+		(at 57.15 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fafebf9-2e0c-4ac7-9403-b6fc7372fc9b")
+		(property "Reference" "U9"
+			(at 57.15 27.5275 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX30102EFD_T"
+			(at 57.15 29.9518 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Smart_Watch:XDCR_MAX30101EFD_"
+			(at 57.15 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Max30102efd+t"
+			(at 57.15 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Maxim Integrated"
+			(at 57.15 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "OLGA-14 Maxim"
+			(at 57.15 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 57.15 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MAX30102EFD+T"
+			(at 57.15 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 57.15 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "fd0ddf5a-ffee-4f92-b3f0-c6a68f273b3b")
+		)
+		(pin "10"
+			(uuid "c219ca77-c15e-4530-b167-bd79e77be508")
+		)
+		(pin "12"
+			(uuid "5cf2b771-4cdb-43fb-a5ac-ff7546f1b1ad")
+		)
+		(pin "9"
+			(uuid "8583ddca-5bcb-4680-afe7-27eabdfb104b")
+		)
+		(pin "11"
+			(uuid "8668a56f-0b4a-43f6-af09-0159f7260f91")
+		)
+		(pin "13"
+			(uuid "17f3f9ca-2283-439c-af13-ce59d8df2669")
+		)
+		(pin "3"
+			(uuid "c42ffd86-4bdf-4ae9-b853-837b0138a3ff")
+		)
+		(pin "4"
+			(uuid "65bf24db-0bf5-4f02-b9e6-cee81f69b991")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "U9")
+					(unit 1)
+					(variant
+						(name "Backpack")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Memory_Flash:W25Q32JVSS")
 		(at 120.65 140.97 0)
 		(unit 1)
@@ -8565,17 +10767,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 120.65 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 120.65 140.97 0)
 			(hide yes)
@@ -8621,17 +10812,6 @@
 			)
 		)
 		(property "MP" ""
-			(at 120.65 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
 			(at 120.65 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8694,10 +10874,7 @@
 					(reference "U5")
 					(unit 1)
 					(variant
-						(name "No Trans")
-					)
-					(variant
-						(name "W Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -8782,6 +10959,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 76.2 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88d13c0c-e722-4fbd-a422-40da4d57c424")
+		(property "Reference" "#PWR06"
+			(at 76.2 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 76.2 27.6169 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 76.2 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7b3540f-605f-4a17-9c53-a8d1ec8f965b")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,4.7uF")
 		(at 114.3 120.65 0)
 		(unit 1)
@@ -8860,17 +11115,6 @@
 			)
 		)
 		(property "Stock" "4246728"
-			(at 114.3 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.013USD"
 			(at 114.3 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8991,17 +11235,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 114.3 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 114.3 120.65 0)
 			(hide yes)
@@ -9057,17 +11290,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 114.3 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 114.3 120.65 0)
 			(hide yes)
@@ -9102,7 +11324,7 @@
 					(reference "C26")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -9173,17 +11395,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 114.3 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 114.3 40.64 0)
 			(hide yes)
@@ -9229,17 +11440,6 @@
 			)
 		)
 		(property "MP" ""
-			(at 114.3 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
 			(at 114.3 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9319,6 +11519,9 @@
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
 					(reference "U1")
 					(unit 1)
+					(variant
+						(name "Backpack")
+					)
 				)
 			)
 		)
@@ -9397,6 +11600,89 @@
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
 					(reference "#PWR015")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 80.01 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dc27631-be4a-475c-81bb-61d8e9f8f9bb")
+		(property "Reference" "NT3"
+			(at 80.01 55.5455 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 80.01 57.9698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 80.01 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 80.01 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "269d5f31-7c5a-4bc9-9bb9-350592b4a4e9")
+		)
+		(pin "2"
+			(uuid "78a4c204-1911-43fd-85cb-c8147c08bcbd")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "NT3")
+					(unit 1)
+					(variant
+						(name "Backpack")
+					)
 				)
 			)
 		)
@@ -9567,17 +11853,6 @@
 				)
 			)
 		)
-		(property "Price" "0.004USD"
-			(at 256.54 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Process" "SMT"
 			(at 256.54 33.02 0)
 			(hide yes)
@@ -9721,17 +11996,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 256.54 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 256.54 33.02 0)
 			(hide yes)
@@ -9787,17 +12051,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 256.54 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 256.54 33.02 0)
 			(hide yes)
@@ -9832,8 +12085,521 @@
 					(reference "R8")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0603,10uF")
+		(at 31.75 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94a6f861-2fce-421c-b0e7-32ef36406275")
+		(property "Reference" "C1"
+			(at 33.782 75.802 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 33.782 77.8482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 33.528 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "9881407"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CL10A106KP8NNNC"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "10V"
+			(at 33.782 79.5162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "10uF"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61a8adaa-80a9-4957-acf5-c22b41c20bf5")
+		)
+		(pin "2"
+			(uuid "bcf1b802-fc7e-47a2-82c5-64d5023dd577")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "C1")
+					(unit 1)
+					(variant
+						(name "Backpack")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0603,4.7uF")
+		(at 50.8 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96bfd2d4-5695-4853-81ea-0013e075efec")
+		(property "Reference" "C3"
+			(at 52.832 75.802 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 52.832 77.8482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 49.022 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19666"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "4246728"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CL10A475KO8NNNC"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "16V"
+			(at 52.832 79.5162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "4.7uF"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 50.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa5fd52a-d0fc-499d-934b-f9c2087d91ee")
+		)
+		(pin "2"
+			(uuid "4d9da552-dcc8-4d81-bbe6-c2409bbb6b45")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "C3")
+					(unit 1)
+					(variant
+						(name "Backpack")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 39.37 30.48 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "976e9aad-17c9-40ea-89f2-45f8a0239980")
+		(property "Reference" "#PWR034"
+			(at 39.37 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 39.37 26.3469 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 39.37 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03be894a-bffa-4a04-9c9d-81f1b80778d7")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "#PWR034")
+					(unit 1)
 				)
 			)
 		)
@@ -9911,6 +12677,84 @@
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 50.8 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1e0c8f2-f8e9-4b79-a01f-42f756ae7514")
+		(property "Reference" "#PWR035"
+			(at 50.8 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 50.8 66.9869 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 50.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "904dcadf-e497-41f8-a99d-a23869cd079f")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9995,17 +12839,6 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 105.41 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.006USD"
 			(at 105.41 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10126,17 +12959,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 105.41 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 105.41 120.65 0)
 			(hide yes)
@@ -10192,17 +13014,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 105.41 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 105.41 120.65 0)
 			(hide yes)
@@ -10237,7 +13048,7 @@
 					(reference "C21")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -10410,17 +13221,6 @@
 				)
 			)
 		)
-		(property "Price" "0.006USD"
-			(at 195.58 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Process" "SMT"
 			(at 195.58 44.45 0)
 			(hide yes)
@@ -10531,17 +13331,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 195.58 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 195.58 44.45 0)
 			(hide yes)
@@ -10597,17 +13386,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 195.58 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 195.58 44.45 0)
 			(hide yes)
@@ -10642,7 +13420,7 @@
 					(reference "C7")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -11127,17 +13905,6 @@
 				)
 			)
 		)
-		(property "Price" "0.006USD"
-			(at 50.8 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Process" "SMT"
 			(at 50.8 118.11 0)
 			(hide yes)
@@ -11248,17 +14015,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 50.8 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 50.8 118.11 0)
 			(hide yes)
@@ -11314,17 +14070,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 50.8 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 50.8 118.11 0)
 			(hide yes)
@@ -11359,7 +14104,7 @@
 					(reference "C9")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -11443,17 +14188,6 @@
 			)
 		)
 		(property "Stock" "11302490"
-			(at 50.8 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.004USD"
 			(at 50.8 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -11607,17 +14341,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 50.8 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 50.8 179.07 0)
 			(hide yes)
@@ -11673,17 +14396,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 50.8 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 50.8 179.07 0)
 			(hide yes)
@@ -11718,7 +14430,7 @@
 					(reference "R1")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -11890,17 +14602,6 @@
 				)
 			)
 		)
-		(property "Price" "0.004USD"
-			(at 185.42 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Process" "SMT"
 			(at 185.42 154.94 0)
 			(hide yes)
@@ -12044,17 +14745,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 185.42 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 185.42 154.94 0)
 			(hide yes)
@@ -12110,17 +14800,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 185.42 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 185.42 154.94 0)
 			(hide yes)
@@ -12155,8 +14834,87 @@
 					(reference "R9")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6f8d7ff-3466-44c4-8b80-069b6de56f51")
+		(property "Reference" "#PWR05"
+			(at 50.8 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.705 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "301ebddf-8cc9-4f68-ba84-eae4d6437386")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "#PWR05")
+					(unit 1)
 				)
 			)
 		)
@@ -12328,17 +15086,6 @@
 				)
 			)
 		)
-		(property "Price" "0.006USD"
-			(at 102.87 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Process" "SMT"
 			(at 102.87 54.61 0)
 			(hide yes)
@@ -12449,17 +15196,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 102.87 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 102.87 54.61 0)
 			(hide yes)
@@ -12515,17 +15251,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 102.87 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 102.87 54.61 0)
 			(hide yes)
@@ -12560,7 +15285,7 @@
 					(reference "C5")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -12645,17 +15370,6 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 182.88 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.006USD"
 			(at 182.88 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12776,17 +15490,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 182.88 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 182.88 123.19 0)
 			(hide yes)
@@ -12842,17 +15545,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 182.88 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 182.88 123.19 0)
 			(hide yes)
@@ -12887,7 +15579,7 @@
 					(reference "C23")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)

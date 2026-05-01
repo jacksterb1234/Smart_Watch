@@ -611,12 +611,6 @@
         },
         {
           "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "CONFIG",
           "name": "CONFIG",
           "show": false
@@ -797,12 +791,6 @@
         },
         {
           "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Part",
           "name": "Part",
           "show": false
@@ -811,12 +799,6 @@
           "group_by": false,
           "label": "Power(Watts)",
           "name": "Power(Watts)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
           "show": false
         },
         {
@@ -932,6 +914,24 @@
           "label": "OPTION",
           "name": "OPTION",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "PRICE",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -990,13 +990,10 @@
         "uuid": "69095a4d-0a57-4fa3-aecb-1cfd89eedc11"
       }
     ],
-    "used_designators": "J5-6,#PWR9,#PWR33",
+    "used_designators": "#PWR2,#PWR4-7,#PWR34-35,#PWR76,C1-4,NT3,R3,U9",
     "variants": [
       {
-        "name": "No Trans"
-      },
-      {
-        "name": "W Trans"
+        "name": "Backpack"
       }
     ]
   },

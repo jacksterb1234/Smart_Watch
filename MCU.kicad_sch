@@ -7523,17 +7523,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 104.14 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 104.14 30.48 0)
 			(hide yes)
@@ -7589,17 +7578,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 104.14 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 104.14 30.48 0)
 			(hide yes)
@@ -7634,12 +7612,7 @@
 					(reference "SW3")
 					(unit 1)
 					(variant
-						(name "No Trans")
-						(in_bom yes)
-					)
-					(variant
-						(name "W Trans")
-						(in_bom yes)
+						(name "Backpack")
 					)
 				)
 			)
@@ -7814,17 +7787,6 @@
 				)
 			)
 		)
-		(property "Price" "0.182USD"
-			(at 93.98 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Process" "SMT"
 			(at 93.98 44.45 0)
 			(hide yes)
@@ -7988,17 +7950,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 93.98 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 93.98 44.45 90)
 			(hide yes)
@@ -8054,17 +8005,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 93.98 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 93.98 44.45 90)
 			(hide yes)
@@ -8099,7 +8039,7 @@
 					(reference "X1")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -8271,17 +8211,6 @@
 				)
 			)
 		)
-		(property "Price" "0.004USD"
-			(at 273.05 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Process" "SMT"
 			(at 273.05 153.67 0)
 			(hide yes)
@@ -8425,17 +8354,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 273.05 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 273.05 153.67 0)
 			(hide yes)
@@ -8491,17 +8409,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 273.05 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 273.05 153.67 0)
 			(hide yes)
@@ -8536,7 +8443,7 @@
 					(reference "R11")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -8941,17 +8848,6 @@
 				)
 			)
 		)
-		(property "Price" "0.007USD"
-			(at 87.63 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Process" "SMT"
 			(at 87.63 39.37 0)
 			(hide yes)
@@ -9061,17 +8957,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 87.63 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 87.63 39.37 90)
 			(hide yes)
@@ -9127,17 +9012,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 87.63 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 87.63 39.37 90)
 			(hide yes)
@@ -9172,7 +9046,7 @@
 					(reference "C25")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -9424,17 +9298,6 @@
 				)
 			)
 		)
-		(property "Price" "0.008USD"
-			(at 204.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Process" "SMT"
 			(at 204.47 149.86 0)
 			(hide yes)
@@ -9545,17 +9408,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 204.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 204.47 149.86 0)
 			(hide yes)
@@ -9611,17 +9463,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 204.47 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 204.47 149.86 0)
 			(hide yes)
@@ -9656,7 +9497,7 @@
 					(reference "C14")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -9809,17 +9650,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 74.93 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 74.93 175.26 0)
 			(hide yes)
@@ -9865,17 +9695,6 @@
 			)
 		)
 		(property "MP" ""
-			(at 74.93 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
 			(at 74.93 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9932,10 +9751,7 @@
 					(reference "J3")
 					(unit 1)
 					(variant
-						(name "No Trans")
-					)
-					(variant
-						(name "W Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -10006,17 +9822,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 25.4 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 25.4 190.5 0)
 			(hide yes)
@@ -10072,17 +9877,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 25.4 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 25.4 190.5 0)
 			(hide yes)
@@ -10117,10 +9911,7 @@
 					(reference "SW7")
 					(unit 1)
 					(variant
-						(name "No Trans")
-					)
-					(variant
-						(name "W Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -10203,17 +9994,6 @@
 			)
 		)
 		(property "Stock" "1531147"
-			(at 87.63 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.007USD"
 			(at 87.63 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10333,17 +10113,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 87.63 49.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 87.63 49.53 90)
 			(hide yes)
@@ -10399,17 +10168,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 87.63 49.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 87.63 49.53 90)
 			(hide yes)
@@ -10444,7 +10202,7 @@
 					(reference "C24")
 					(unit 1)
 					(variant
-						(name "No Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -10594,17 +10352,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 87.63 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 87.63 125.73 0)
 			(hide yes)
@@ -10660,17 +10407,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 87.63 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 87.63 125.73 0)
 			(hide yes)
@@ -10716,6 +10452,9 @@
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/30bd5bb3-3a33-4afa-baf2-7512abedf580"
 					(reference "U8")
 					(unit 1)
+					(variant
+						(name "Backpack")
+					)
 				)
 			)
 		)
@@ -10856,17 +10595,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Availability" ""
-			(at 144.78 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 144.78 78.74 0)
 			(hide yes)
@@ -10912,17 +10640,6 @@
 			)
 		)
 		(property "MP" ""
-			(at 144.78 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
 			(at 144.78 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11206,6 +10923,9 @@
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/30bd5bb3-3a33-4afa-baf2-7512abedf580"
 					(reference "U3")
 					(unit 1)
+					(variant
+						(name "Backpack")
+					)
 				)
 			)
 		)
@@ -11275,17 +10995,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 25.4 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 25.4 172.72 0)
 			(hide yes)
@@ -11341,17 +11050,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 25.4 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 25.4 172.72 0)
 			(hide yes)
@@ -11386,10 +11084,7 @@
 					(reference "SW5")
 					(unit 1)
 					(variant
-						(name "No Trans")
-					)
-					(variant
-						(name "W Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -11600,17 +11295,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Availability" ""
-			(at 43.18 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 43.18 120.65 0)
 			(hide yes)
@@ -11656,17 +11340,6 @@
 			)
 		)
 		(property "MP" ""
-			(at 43.18 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
 			(at 43.18 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11752,6 +11425,9 @@
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/30bd5bb3-3a33-4afa-baf2-7512abedf580"
 					(reference "J1")
 					(unit 1)
+					(variant
+						(name "Backpack")
+					)
 				)
 			)
 		)
@@ -11821,17 +11497,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 25.4 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 25.4 163.83 0)
 			(hide yes)
@@ -11887,17 +11552,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 25.4 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 25.4 163.83 0)
 			(hide yes)
@@ -11932,10 +11586,7 @@
 					(reference "SW4")
 					(unit 1)
 					(variant
-						(name "No Trans")
-					)
-					(variant
-						(name "W Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -12093,17 +11744,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 241.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 241.3 90.17 0)
 			(hide yes)
@@ -12149,17 +11789,6 @@
 			)
 		)
 		(property "MP" ""
-			(at 241.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
 			(at 241.3 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12267,10 +11896,7 @@
 					(reference "X608")
 					(unit 1)
 					(variant
-						(name "No Trans")
-					)
-					(variant
-						(name "W Trans")
+						(name "Backpack")
 					)
 				)
 			)
@@ -12577,17 +12203,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 212.09 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 212.09 137.16 0)
 			(hide yes)
@@ -12643,17 +12258,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 212.09 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 212.09 137.16 0)
 			(hide yes)
@@ -12699,6 +12303,9 @@
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/30bd5bb3-3a33-4afa-baf2-7512abedf580"
 					(reference "U7")
 					(unit 1)
+					(variant
+						(name "Backpack")
+					)
 				)
 			)
 		)
@@ -12768,17 +12375,6 @@
 				)
 			)
 		)
-		(property "Availability" ""
-			(at 25.4 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Check_prices" ""
 			(at 25.4 181.61 0)
 			(hide yes)
@@ -12834,17 +12430,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 25.4 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purchase-URL" ""
 			(at 25.4 181.61 0)
 			(hide yes)
@@ -12879,10 +12464,7 @@
 					(reference "SW6")
 					(unit 1)
 					(variant
-						(name "No Trans")
-					)
-					(variant
-						(name "W Trans")
+						(name "Backpack")
 					)
 				)
 			)
