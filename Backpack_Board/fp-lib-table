@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Smart_Watch") (type "KiCad") (uri "${SMART_WATCH}/Smart_Watch.pretty") (options "") (descr ""))
+)
