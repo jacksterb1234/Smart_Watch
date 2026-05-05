@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -990,7 +990,7 @@
         "uuid": "69095a4d-0a57-4fa3-aecb-1cfd89eedc11"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1",
     "variants": [
       {
         "name": "Backpack"
