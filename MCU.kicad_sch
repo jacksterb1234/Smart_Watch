@@ -2124,7 +2124,7 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 9.652 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
 				(effects
 					(font
@@ -2134,7 +2134,7 @@
 			)
 			(property "Value" "ESDR0502NMUTBG"
 				(at 0 7.112 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
 				(effects
 					(font
@@ -2146,7 +2146,6 @@
 				(at -8.128 -25.146 0)
 				(show_name yes)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2157,7 +2156,6 @@
 				(at -8.128 -25.146 0)
 				(show_name yes)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2168,7 +2166,6 @@
 				(at 0.508 -29.464 0)
 				(show_name yes)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2208,7 +2205,7 @@
 				)
 			)
 			(symbol "ESDR0502NMUTBG_0_1"
-				(pin power_out line
+				(pin power_in line
 					(at -12.7 2.54 0)
 					(length 5.08)
 					(name "GND"
@@ -2493,42 +2490,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 10.16 -6.35 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -8.89 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 45.72 -8.89 180)
 					(length 5.08)
@@ -2576,6 +2537,44 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "FAN5622SX_1_1"
+				(pin power_in line
+					(at 10.16 -6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -8.89 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5070,6 +5069,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "BUTTONS"
 		(exclude_from_sim no)
@@ -5180,6 +5294,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0591d346-9384-4fcf-8856-d692c3900165")
+	)
+	(junction
+		(at 58.42 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c269732-6176-4976-835f-cd8d591b8f4a")
 	)
 	(junction
 		(at 172.72 144.78)
@@ -5308,12 +5428,6 @@
 		(uuid "9e8c5022-5671-40c3-95e0-746c8b83e5d3")
 	)
 	(junction
-		(at 58.42 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fe49156-62ca-4652-801e-efc46492acd7")
-	)
-	(junction
 		(at 172.72 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5330,6 +5444,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4d6aced-f6f8-4f1c-a2b1-7acf2827c3c8")
+	)
+	(junction
+		(at 62.23 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5ffb436-7db4-4c42-9b70-02bd43bd408a")
 	)
 	(junction
 		(at 172.72 149.86)
@@ -6233,7 +6353,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 104.14) (xy 58.42 104.14)
+			(xy 66.04 104.14) (xy 62.23 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6400,6 +6520,16 @@
 			(type default)
 		)
 		(uuid "c6a8a29c-e332-4b13-b7d7-ee7df7788813")
+	)
+	(wire
+		(pts
+			(xy 62.23 104.14) (xy 58.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b40cfe-cf23-4b63-9c8f-3508eca053dd")
 	)
 	(wire
 		(pts
@@ -7183,7 +7313,7 @@
 	)
 	(hierarchical_label "VBUS_IN"
 		(shape output)
-		(at 60.96 104.14 0)
+		(at 66.04 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10615,9 +10745,9 @@
 			)
 		)
 		(property "Footprint" "Smart_Watch:UDFN6_517AA_ONS-L"
-			(at 95.758 150.876 0)
+			(at 87.63 116.6325 0)
 			(hide yes)
-			(show_name yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -10626,9 +10756,9 @@
 			)
 		)
 		(property "Datasheet" "ESDR0502NMUTBG"
-			(at 95.758 150.876 0)
+			(at 87.63 119.0568 0)
 			(hide yes)
-			(show_name yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -10638,83 +10768,6 @@
 		)
 		(property "Description" ""
 			(at 87.122 155.194 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 87.63 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 87.63 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Inductance" ""
-			(at 87.63 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 87.63 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 87.63 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 87.63 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 87.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11381,6 +11434,84 @@
 					(variant
 						(name "Backpack")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb8ec4da-38a0-4e76-af91-4865234eee6a")
+		(property "Reference" "#FLG02"
+			(at 62.23 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 62.23 100.0069 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c04e068-1a8d-4f77-9ef7-4bf6dbe3d651")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/30bd5bb3-3a33-4afa-baf2-7512abedf580"
+					(reference "#FLG02")
+					(unit 1)
 				)
 			)
 		)
@@ -12148,83 +12279,6 @@
 			(at 211.074 126.746 0)
 			(hide yes)
 			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 212.09 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 212.09 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Inductance" ""
-			(at 212.09 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 212.09 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 212.09 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 212.09 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 212.09 137.16 0)
-			(hide yes)
-			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font

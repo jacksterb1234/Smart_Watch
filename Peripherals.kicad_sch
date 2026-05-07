@@ -3559,7 +3559,7 @@
 			)
 			(property "Footprint" "Smart_Watch:BMI270_BOS-L"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -3570,7 +3570,7 @@
 			)
 			(property "Datasheet" "BMI270"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -3581,7 +3581,7 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -3761,7 +3761,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "GNDIO"
@@ -3779,7 +3779,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -15.24 0)
 					(length 7.62)
 					(name "GND"
@@ -11776,7 +11776,7 @@
 		(property "Footprint" "Smart_Watch:BMI270_BOS-L"
 			(at 114.3 40.64 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -11787,7 +11787,7 @@
 		(property "Datasheet" "BMI270"
 			(at 114.3 40.64 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -11798,84 +11798,7 @@
 		(property "Description" ""
 			(at 114.3 40.64 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 114.3 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 114.3 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Inductance" ""
-			(at 114.3 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 114.3 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 114.3 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 114.3 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 114.3 40.64 0)
-			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
