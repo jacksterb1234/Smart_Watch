@@ -5196,15 +5196,6 @@
 		(at 265.43 142.24)
 		(uuid "e4b12552-187a-4dc5-acb0-3e8c9c5d99e5")
 	)
-	(bus_entry
-		(at 36.83 127)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db82ac47-8236-47e5-b4e4-803b80131d3f")
-	)
 	(wire
 		(pts
 			(xy 76.2 31.75) (xy 76.2 34.29)
@@ -8536,14 +8527,15 @@
 				)
 			)
 		)
-		(property "Value" "VDD"
-			(at 43.18 168.5869 0)
+		(property "Value" "+1V8"
+			(at 44.577 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
