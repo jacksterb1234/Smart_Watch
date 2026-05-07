@@ -1,0 +1,28 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.1*%
+%TF.CreationDate,2026-05-06T10:39:13-04:00*%
+%TF.ProjectId,Smart_Watch,536d6172-745f-4576-9174-63682e6b6963,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.1) date 2026-05-06 10:39:13*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X16300000Y0D02*
+G75*
+G02*
+X-16300000Y0I-16300000J0D01*
+G01*
+X-16300000Y0D02*
+G75*
+G02*
+X16300000Y0I16300000J0D01*
+G01*
+M02*

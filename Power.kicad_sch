@@ -5076,7 +5076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "081fb81b-aa68-405f-8bf4-569a5063934c")
-		(property "Reference" "TP11"
+		(property "Reference" "+1V8"
 			(at 245.999 104.1978 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5137,7 +5137,7 @@
 		(instances
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
-					(reference "TP11")
+					(reference "+1V8")
 					(unit 1)
 				)
 			)
@@ -5389,7 +5389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20011120-d42f-432e-ad3b-df00e2350896")
-		(property "Reference" "TP12"
+		(property "Reference" "VSYS1"
 			(at 245.999 109.2778 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5450,7 +5450,7 @@
 		(instances
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
-					(reference "TP12")
+					(reference "VSYS1")
 					(unit 1)
 				)
 			)
@@ -6520,7 +6520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c497c99-eb74-4827-b5c4-d1e1a76a6f88")
-		(property "Reference" "TP15"
+		(property "Reference" "PGND1"
 			(at 247.269 127.0578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6581,7 +6581,7 @@
 		(instances
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
-					(reference "TP15")
+					(reference "PGND1")
 					(unit 1)
 				)
 			)
@@ -6677,7 +6677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e0962aa-f4be-4464-8378-c11f4de18efb")
-		(property "Reference" "TP13"
+		(property "Reference" "PMIC_INT1"
 			(at 245.999 114.3578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6738,7 +6738,7 @@
 		(instances
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
-					(reference "TP13")
+					(reference "PMIC_INT1")
 					(unit 1)
 				)
 			)
@@ -8773,7 +8773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7658bf6f-0678-4ad7-839c-0bf69ef09b5e")
-		(property "Reference" "TP10"
+		(property "Reference" "+3V0"
 			(at 245.999 99.1178 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8834,7 +8834,7 @@
 		(instances
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
-					(reference "TP10")
+					(reference "+3V0")
 					(unit 1)
 				)
 			)
@@ -8852,7 +8852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "780b145f-72ab-4db7-9dd8-04e6d8883b5e")
-		(property "Reference" "TP16"
+		(property "Reference" "PGND2"
 			(at 247.269 134.6778 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8913,7 +8913,7 @@
 		(instances
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
-					(reference "TP16")
+					(reference "PGND2")
 					(unit 1)
 				)
 			)
@@ -9169,7 +9169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "806bb546-6415-409a-8109-5c9c23a3eb33")
-		(property "Reference" "TP8"
+		(property "Reference" "VBUS_IN1"
 			(at 245.999 87.6878 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9230,7 +9230,7 @@
 		(instances
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
-					(reference "TP8")
+					(reference "VBUS_IN1")
 					(unit 1)
 				)
 			)
@@ -9248,7 +9248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82afcedb-3b67-4419-b4e0-6b253a547b3d")
-		(property "Reference" "TP14"
+		(property "Reference" "GND1"
 			(at 247.269 119.4378 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9309,7 +9309,7 @@
 		(instances
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
-					(reference "TP14")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -9699,7 +9699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "899112c0-50de-4cb1-a883-12b0f19ae18a")
-		(property "Reference" "TP7"
+		(property "Reference" "+BATT1"
 			(at 245.999 83.8778 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9760,7 +9760,7 @@
 		(instances
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
-					(reference "TP7")
+					(reference "+BATT1")
 					(unit 1)
 				)
 			)
@@ -10306,7 +10306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab923a85-62d5-4cf4-b870-fdaf92bb4942")
-		(property "Reference" "TP9"
+		(property "Reference" "VBUS_OUT1"
 			(at 245.999 92.7678 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10367,7 +10367,7 @@
 		(instances
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/88559da1-41ec-4d01-a245-44d6dbccae3b"
-					(reference "TP9")
+					(reference "VBUS_OUT1")
 					(unit 1)
 				)
 			)

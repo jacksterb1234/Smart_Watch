@@ -60,7 +60,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|162009270|100478400|18bb3ede-d876-4f91-a723-b2f80cbb242f|247a3344-6b4a-4515-94d0-8f72348bb6c8",
+          ""
+        ],
+        [
+          "courtyards_overlap|165695000|96105450|18bb3ede-d876-4f91-a723-b2f80cbb242f|7761e4f6-2a63-499d-a210-9ee825805f5c",
+          ""
+        ],
+        [
+          "courtyards_overlap|177947106|118836741|581b4fdb-5182-4906-b9f3-ab6cc01d9062|d9efe461-a178-43a0-a125-8cb5867485f7",
+          ""
+        ],
+        [
+          "courtyards_overlap|177947106|96863258|7761e4f6-2a63-499d-a210-9ee825805f5c|85e7b356-4518-43f0-9365-d3b05c882b5f",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -990,7 +1007,7 @@
         "uuid": "69095a4d-0a57-4fa3-aecb-1cfd89eedc11"
       }
     ],
-    "used_designators": "#FLG1-3,J1",
+    "used_designators": "QSPI_CS1,LRA_PWM1,J1,+BATT1,LRA_EN1,GND1,PMIC_INT1,QSPI_CLK1,SCL1,SDA1,VBUS_IN1,VBUS_OUT1,VSYS1",
     "variants": [
       {
         "name": "Backpack"
