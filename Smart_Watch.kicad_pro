@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.25,
-          "height": 0.5,
-          "width": 0.5
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -82,7 +82,15 @@
           ""
         ],
         [
+          "courtyards_overlap|162712000|115675888|1c32f9fa-8cbc-4584-97ad-23a8a7c4b2c0|fcf27cd6-a6a0-4392-a27b-49a12143915d",
+          ""
+        ],
+        [
           "courtyards_overlap|165695000|96105450|18bb3ede-d876-4f91-a723-b2f80cbb242f|7761e4f6-2a63-499d-a210-9ee825805f5c",
+          ""
+        ],
+        [
+          "courtyards_overlap|165967000|118501727|1b703251-29f8-4124-b985-4caf82a03c5e|fcf27cd6-a6a0-4392-a27b-49a12143915d",
           ""
         ],
         [
@@ -115,7 +123,7 @@
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -1023,7 +1031,7 @@
         "uuid": "69095a4d-0a57-4fa3-aecb-1cfd89eedc11"
       }
     ],
-    "used_designators": "U10,#PWR21,#PWR23,#PWR37-38,#PWR69,C9",
+    "used_designators": "U4",
     "variants": [
       {
         "name": "Backpack"

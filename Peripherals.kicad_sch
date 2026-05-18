@@ -3194,7 +3194,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Smart_Watch:LPS22HHTR"
+		(symbol "Smart_Watch:BMP388"
 			(pin_names
 				(offset 0.254)
 			)
@@ -3204,7 +3204,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 33.02 10.16 0)
+				(at 20.32 10.16 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(effects
@@ -3213,8 +3213,8 @@
 					)
 				)
 			)
-			(property "Value" "LPS22HHTR"
-				(at 33.02 7.62 0)
+			(property "Value" "BMP388"
+				(at 20.32 7.62 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(effects
@@ -3223,20 +3223,22 @@
 					)
 				)
 			)
-			(property "Footprint" "Smart_Watch:HLGA-10L_2X2X0P73_STM-L"
-				(at -22.86 13.716 0)
+			(property "Footprint" "Smart_Watch:QFN_BMP388_BOS-L"
+				(at -30.734 12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lps22hh.pdf"
-				(at -22.86 13.716 0)
+			(property "Datasheet" "BMP388"
+				(at -22.86 3.81 0)
 				(show_name yes)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3244,9 +3246,10 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at -22.86 3.81 0)
 				(show_name yes)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3263,7 +3266,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "LPS22HHTR"
+			(property "ki_keywords" "BMP388"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3274,7 +3277,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "HLGA-10L_2X2X0P73_STM HLGA-10L_2X2X0P73_STM-M HLGA-10L_2X2X0P73_STM-L"
+			(property "ki_fp_filters" "QFN_BMP388_BOS QFN_BMP388_BOS-M QFN_BMP388_BOS-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3285,7 +3288,7 @@
 					)
 				)
 			)
-			(symbol "LPS22HHTR_0_1"
+			(symbol "BMP388_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -15.24)
@@ -3300,7 +3303,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -15.24) (xy 34.29 -15.24)
+						(xy 7.62 -15.24) (xy 33.02 -15.24)
 					)
 					(stroke
 						(width 0.127)
@@ -3312,7 +3315,7 @@
 				)
 				(polyline
 					(pts
-						(xy 34.29 5.08) (xy 7.62 5.08)
+						(xy 33.02 5.08) (xy 7.62 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -3324,7 +3327,7 @@
 				)
 				(polyline
 					(pts
-						(xy 34.29 -15.24) (xy 34.29 5.08)
+						(xy 33.02 -15.24) (xy 33.02 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -3335,9 +3338,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 0 0)
+					(at 0 2.54 0)
 					(length 7.62)
-					(name "VDD_IO"
+					(name "VDDIO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3353,9 +3356,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 41.91 -5.08 180)
+					(at 40.64 -6.35 180)
 					(length 7.62)
-					(name "SCL/SPC"
+					(name "SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3370,10 +3373,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 0)
+				(pin power_out line
+					(at 0 -7.62 0)
 					(length 7.62)
-					(name "RES"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3389,9 +3392,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 41.91 -7.62 180)
+					(at 40.64 -3.81 180)
 					(length 7.62)
-					(name "SDA/SDI/SDO"
+					(name "SDI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3407,9 +3410,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -8.89 0)
+					(at 0 -5.08 0)
 					(length 7.62)
-					(name "SDO/SA0"
+					(name "SDO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3427,7 +3430,7 @@
 				(pin unspecified line
 					(at 0 -2.54 0)
 					(length 7.62)
-					(name "CS"
+					(name "CSB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3443,9 +3446,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 41.91 0 180)
+					(at 40.64 -1.27 180)
 					(length 7.62)
-					(name "INT_DRDY"
+					(name "INT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3461,9 +3464,9 @@
 					)
 				)
 				(pin power_out line
-					(at 0 -11.43 0)
+					(at 0 -10.16 0)
 					(length 7.62)
-					(name "GND"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3479,9 +3482,9 @@
 					)
 				)
 				(pin power_out line
-					(at 0 -13.97 0)
+					(at 0 -12.7 0)
 					(length 7.62)
-					(name "GND"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3497,7 +3500,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 2.54 0)
+					(at 0 0 0)
 					(length 7.62)
 					(name "VDD"
 						(effects
@@ -5346,10 +5349,10 @@
 		(uuid "e658b020-ba69-4c21-ac6a-ef2d4045d456")
 	)
 	(junction
-		(at 72.39 134.62)
+		(at 34.29 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0fcc2397-7f9e-4951-b4b8-60cdb0288e08")
+		(uuid "0ac03330-5a8f-4d33-8e86-2627ab2aadd9")
 	)
 	(junction
 		(at 118.11 26.67)
@@ -5412,6 +5415,30 @@
 		(uuid "53fc6e2a-5a9b-444b-8cf6-3ad907e2c52c")
 	)
 	(junction
+		(at 30.48 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64dd1115-f3f9-4ac9-9661-3c247f580eee")
+	)
+	(junction
+		(at 34.29 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "686a47ca-f065-497e-aae2-1050b99df2d0")
+	)
+	(junction
+		(at 34.29 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ce18ac8-5422-4075-a632-86c73839168e")
+	)
+	(junction
+		(at 34.29 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79a2e6c4-3516-481e-835e-c138647c64ed")
+	)
+	(junction
 		(at 227.33 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5448,10 +5475,10 @@
 		(uuid "ae099158-21b9-4bae-8677-bf81340a2dd2")
 	)
 	(junction
-		(at 30.48 114.3)
+		(at 34.29 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2ee6467-2c02-486c-bbf8-3735812f0517")
+		(uuid "b49d124f-a3f3-492b-872e-e91e37b6ea42")
 	)
 	(junction
 		(at 195.58 40.64)
@@ -5464,18 +5491,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c41bcdcf-b61e-4b65-9671-120458ee16bd")
-	)
-	(junction
-		(at 30.48 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd18dc6a-c7b6-4f3e-be46-ea9424c9ee00")
-	)
-	(junction
-		(at 30.48 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfb4b3b6-2982-48ed-9f48-8cf43ae2a613")
 	)
 	(junction
 		(at 256.54 45.72)
@@ -5494,12 +5509,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dec4d706-4729-44bd-88c9-96e0e19b53e8")
-	)
-	(junction
-		(at 30.48 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4aa9def-b1a8-4466-89bc-2a88b1af21aa")
 	)
 	(junction
 		(at 185.42 143.51)
@@ -5524,18 +5533,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecf387da-6ed2-440b-b504-d370204bd193")
-	)
-	(junction
-		(at 30.48 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed9352b9-5599-4a50-865b-6e835c1a4db4")
-	)
-	(junction
-		(at 30.48 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0d51ab3-30dc-4529-86d0-fc106bfaf2e6")
 	)
 	(no_connect
 		(at 265.43 129.54)
@@ -5587,16 +5584,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 134.62) (xy 86.36 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03e6edfb-3ecc-41b1-9869-9b7e1e5a0d21")
-	)
-	(wire
-		(pts
 			(xy 193.04 140.97) (xy 194.31 140.97)
 		)
 		(stroke
@@ -5644,16 +5631,6 @@
 			(type default)
 		)
 		(uuid "07c4a9b0-4376-487e-9412-d59a12e1b8b8")
-	)
-	(wire
-		(pts
-			(xy 30.48 146.05) (xy 30.48 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "086acb43-24d5-4cd9-9d5d-000798e29b82")
 	)
 	(wire
 		(pts
@@ -5727,16 +5704,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 114.3) (xy 30.48 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bda44d9-318f-4b0f-ab34-ad36df4f3bcd")
-	)
-	(wire
-		(pts
 			(xy 39.37 72.39) (xy 39.37 73.66)
 		)
 		(stroke
@@ -5794,6 +5761,16 @@
 			(type default)
 		)
 		(uuid "29daa6eb-896d-4a8c-b018-6c18f7bb7265")
+	)
+	(wire
+		(pts
+			(xy 34.29 133.35) (xy 34.29 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef391fc-7f38-404e-8ae3-8dc1b8192eb9")
 	)
 	(wire
 		(pts
@@ -5907,6 +5884,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 114.3) (xy 34.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f62a1fe-5ff3-4e90-8ca9-48a1e8a307b7")
+	)
+	(wire
+		(pts
 			(xy 237.49 48.26) (xy 237.49 55.88)
 		)
 		(stroke
@@ -5977,16 +5964,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 134.62) (xy 72.39 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dbddd3d-3633-465e-89b8-22bd611522d1")
-	)
-	(wire
-		(pts
 			(xy 227.33 143.51) (xy 227.33 146.05)
 		)
 		(stroke
@@ -6027,7 +6004,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 142.24) (xy 85.09 142.24)
+			(xy 74.93 132.08) (xy 87.63 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6137,7 +6114,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 139.7) (xy 85.09 139.7)
+			(xy 74.93 129.54) (xy 87.63 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6237,13 +6214,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 143.51) (xy 30.48 146.05)
+			(xy 34.29 125.73) (xy 34.29 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a371d96-d15a-49da-b3ea-0dc338d8168a")
+		(uuid "9ae1591a-98b8-4137-b7f2-1df4e7406b31")
 	)
 	(wire
 		(pts
@@ -6337,16 +6314,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 132.08) (xy 30.48 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5459140-c287-4413-b95d-a88896883e44")
-	)
-	(wire
-		(pts
 			(xy 179.07 119.38) (xy 182.88 119.38)
 		)
 		(stroke
@@ -6357,16 +6324,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 134.62) (xy 30.48 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6da40d0-e665-488e-9b5e-5bbd4fca2a67")
-	)
-	(wire
-		(pts
 			(xy 86.36 170.18) (xy 95.25 170.18)
 		)
 		(stroke
@@ -6374,6 +6331,26 @@
 			(type default)
 		)
 		(uuid "b8ec8c9f-9d3e-488f-af3f-25d60978190e")
+	)
+	(wire
+		(pts
+			(xy 74.93 127) (xy 87.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9c91a8-7ff4-4339-984c-f0add2a52634")
+	)
+	(wire
+		(pts
+			(xy 34.29 138.43) (xy 34.29 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19f93a7-5b29-47cf-8eb4-3f366ef2a005")
 	)
 	(wire
 		(pts
@@ -6457,6 +6434,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 114.3) (xy 34.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd968f0d-b1cf-4791-8972-8abe30ee5214")
+	)
+	(wire
+		(pts
 			(xy 86.36 187.96) (xy 100.33 187.96)
 		)
 		(stroke
@@ -6467,7 +6454,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 139.7) (xy 30.48 143.51)
+			(xy 34.29 130.81) (xy 34.29 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6517,6 +6504,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 123.19) (xy 34.29 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd0b512-5ed0-4d02-9a64-987c6afabf71")
+	)
+	(wire
+		(pts
 			(xy 95.25 170.18) (xy 95.25 167.64)
 		)
 		(stroke
@@ -6534,6 +6531,16 @@
 			(type default)
 		)
 		(uuid "e48d1535-5ae1-4da7-b39e-e3f9f4aefc6b")
+	)
+	(wire
+		(pts
+			(xy 34.29 135.89) (xy 34.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d29c34-64fb-4395-a5c2-275d00a0e19f")
 	)
 	(wire
 		(pts
@@ -6734,7 +6741,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 85.09 139.7 0)
+		(at 87.63 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6853,17 +6860,6 @@
 		)
 		(uuid "94ecfcb9-930e-4042-ae9a-a169ceeb020b")
 	)
-	(hierarchical_label "LPS_INT"
-		(shape output)
-		(at 86.36 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97b6af2d-73d5-49d0-b228-c48d1778d740")
-	)
 	(hierarchical_label "QSPI_CLK"
 		(shape input)
 		(at 110.49 135.89 180)
@@ -6899,7 +6895,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 85.09 142.24 0)
+		(at 87.63 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6962,6 +6958,17 @@
 			(justify right)
 		)
 		(uuid "c57ddd4a-fca7-4e64-b502-69007afe2f6a")
+	)
+	(hierarchical_label "LPS_INT"
+		(shape output)
+		(at 87.63 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c63e664c-93ac-48d8-987b-e45ea5ba953d")
 	)
 	(hierarchical_label "V_SYS"
 		(shape input)
@@ -7501,6 +7508,113 @@
 			(project "Smart_Watch"
 				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smart_Watch:BMP388")
+		(at 34.29 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1cf4920f-09f5-4720-a2a7-204c5d9f8959")
+		(property "Reference" "U4"
+			(at 51.562 115.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMP388"
+			(at 51.562 118.364 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smart_Watch:QFN_BMP388_BOS-L"
+			(at 69.85 138.4299 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "BMP388"
+			(at 69.85 140.9699 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 22.098 135.636 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb60c361-cf00-4d05-afc4-45ef7d2eb9fc")
+		)
+		(pin "5"
+			(uuid "6a8bc515-b8bb-4985-aced-29a45b3f1740")
+		)
+		(pin "6"
+			(uuid "85334785-1954-43c7-9414-705d09cf1f35")
+		)
+		(pin "7"
+			(uuid "11b16c5d-0f46-4f89-afc5-75fb2bee0328")
+		)
+		(pin "10"
+			(uuid "8f1fc5c9-05d6-4690-826f-eafe62adc99b")
+		)
+		(pin "3"
+			(uuid "80731838-25b1-44f6-9822-6c4a04040922")
+		)
+		(pin "2"
+			(uuid "966db435-6a04-43b7-9cc5-e4b740ba63eb")
+		)
+		(pin "9"
+			(uuid "279e6978-9469-4183-9196-8a0ae9c81ffe")
+		)
+		(pin "4"
+			(uuid "faf5ce86-54ad-4a80-816c-818bae18ea12")
+		)
+		(pin "8"
+			(uuid "0f87459a-ce8d-4596-b36d-953146d43f2f")
+		)
+		(instances
+			(project "Smart_Watch"
+				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -10748,109 +10862,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Smart_Watch:LPS22HHTR")
-		(at 30.48 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64a0cdf1-1afd-458f-9b2f-2481bbf41a36")
-		(property "Reference" "U10"
-			(at 53.594 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LPS22HHTR"
-			(at 52.324 127.762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Smart_Watch:HLGA-10L_2X2X0P73_STM-L"
-			(at 63.5 124.46 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lps22hh.pdf"
-			(at 63.5 127 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 134.62 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "e0274b84-6626-497d-8c73-396840f71e3b")
-		)
-		(pin "2"
-			(uuid "04e0cf0b-dfde-4500-b1c3-d2bfcdd7cf6f")
-		)
-		(pin "6"
-			(uuid "b8c2bb09-5eb9-4d6c-a1fa-a9399aba2ab2")
-		)
-		(pin "4"
-			(uuid "b37e9e84-ce63-42c8-89bb-222de8e3e8dc")
-		)
-		(pin "5"
-			(uuid "9d277e98-608c-4348-acfa-eb244a0f17d9")
-		)
-		(pin "1"
-			(uuid "ab7b5522-a7f5-45ca-8363-306f20a9975a")
-		)
-		(pin "7"
-			(uuid "18f9ba55-8ac9-4916-bcfd-8119a15380b5")
-		)
-		(pin "8"
-			(uuid "eb20df0d-c8fa-477a-b8d7-d2b907eb3695")
-		)
-		(pin "10"
-			(uuid "705fa645-b181-402a-ab50-1f07f9d2644b")
-		)
-		(pin "9"
-			(uuid "752a82a5-6a16-4928-a457-13a599884d07")
-		)
-		(instances
-			(project "Smart_Watch"
-				(path "/69095a4d-0a57-4fa3-aecb-1cfd89eedc11/bed567dd-6d09-419a-b99a-3e57c9439bd4/21b6cdb5-38b5-44be-b4b2-bd0733b126a2"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,4.7kΩ")
 		(at 39.37 35.56 0)
 		(mirror x)
@@ -13611,7 +13622,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 148.59 0)
+		(at 34.29 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13622,7 +13633,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d7f866b-72d1-4c86-91f3-2b490a1d57bc")
 		(property "Reference" "#PWR024"
-			(at 30.48 154.94 0)
+			(at 34.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13633,7 +13644,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 152.7231 0)
+			(at 34.29 143.8331 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13643,7 +13654,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 148.59 0)
+			(at 34.29 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13654,7 +13665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 148.59 0)
+			(at 34.29 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13665,7 +13676,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 148.59 0)
+			(at 34.29 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
