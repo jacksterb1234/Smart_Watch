@@ -1031,7 +1031,7 @@
         "uuid": "69095a4d-0a57-4fa3-aecb-1cfd89eedc11"
       }
     ],
-    "used_designators": "U3-4,U10",
+    "used_designators": "U3-4,U10,A1,#PWR1,#PWR3,#PWR21,#PWR24",
     "variants": [
       {
         "name": "Backpack"
