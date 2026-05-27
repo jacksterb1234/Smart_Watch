@@ -76,32 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|162009270|100478400|18bb3ede-d876-4f91-a723-b2f80cbb242f|247a3344-6b4a-4515-94d0-8f72348bb6c8",
-          ""
-        ],
-        [
-          "courtyards_overlap|162712000|115675888|1c32f9fa-8cbc-4584-97ad-23a8a7c4b2c0|fcf27cd6-a6a0-4392-a27b-49a12143915d",
-          ""
-        ],
-        [
-          "courtyards_overlap|165695000|96105450|18bb3ede-d876-4f91-a723-b2f80cbb242f|7761e4f6-2a63-499d-a210-9ee825805f5c",
-          ""
-        ],
-        [
-          "courtyards_overlap|165967000|118501727|1b703251-29f8-4124-b985-4caf82a03c5e|fcf27cd6-a6a0-4392-a27b-49a12143915d",
-          ""
-        ],
-        [
-          "courtyards_overlap|177947106|118836741|581b4fdb-5182-4906-b9f3-ab6cc01d9062|d9efe461-a178-43a0-a125-8cb5867485f7",
-          ""
-        ],
-        [
-          "courtyards_overlap|177947106|96863258|7761e4f6-2a63-499d-a210-9ee825805f5c|85e7b356-4518-43f0-9365-d3b05c882b5f",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -109,9 +84,9 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "ignore",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -123,7 +98,7 @@
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "ignore",
+        "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -145,15 +120,15 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -163,7 +138,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -1031,7 +1006,7 @@
         "uuid": "69095a4d-0a57-4fa3-aecb-1cfd89eedc11"
       }
     ],
-    "used_designators": "U3-4,U10,A1,#PWR1,#PWR3,#PWR21,#PWR24",
+    "used_designators": "",
     "variants": [
       {
         "name": "Backpack"
