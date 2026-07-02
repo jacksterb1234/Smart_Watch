@@ -1,0 +1,18 @@
+identifier: custom_smartwatch/nrf5340/cpuapp
+name: Custom-Smartwatch-nRF5340-Application
+type: mcu
+arch: arm
+toolchain:
+  - gnuarmemb
+  - zephyr
+ram: 448
+flash: 1024
+supported:
+  - display
+  - flash
+  - gpio
+  - i2c
+  - pwm
+  - spi
+  - usb_device
+  - watchdog

@@ -1,0 +1,65 @@
+/*
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/dts-v1/;
+
+#include <nordic/nrf5340_cpunet_qkaa.dtsi>
+
+/ {
+	compatible = "custom,custom-smartwatch-nrf5340-cpunet";
+	model = "Custom Smartwatch NORA-B106 nRF5340 Network MCU";
+
+	chosen {
+		zephyr,bt-hci-ipc = &ipc0;
+		zephyr,sram = &sram1;
+		zephyr,flash = &flash1;
+		zephyr,code-partition = &slot0_partition;
+	};
+
+	aliases {
+		watchdog0 = &wdt;
+	};
+};
+
+&gpiote {
+	status = "okay";
+};
+
+&gpio0 {
+	status = "okay";
+};
+
+&gpio1 {
+	status = "okay";
+};
+
+&flash1 {
+	partitions {
+		compatible = "fixed-partitions";
+		#address-cells = <1>;
+		#size-cells = <1>;
+
+		boot_partition: partition@0 {
+			label = "mcuboot";
+			reg = <0x00000000 0xc000>;
+		};
+
+		slot0_partition: partition@c000 {
+			label = "image-0";
+			reg = <0x0000c000 0x17000>;
+		};
+
+		slot1_partition: partition@23000 {
+			label = "image-1";
+			reg = <0x00023000 0x17000>;
+		};
+
+		storage_partition: partition@3a000 {
+			label = "storage";
+			reg = <0x0003a000 0x6000>;
+		};
+	};
+};
+
+#include <nordic/nrf5340_shared_sram_partition.dtsi>

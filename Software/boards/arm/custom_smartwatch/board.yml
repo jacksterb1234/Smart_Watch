@@ -1,0 +1,9 @@
+board:
+  name: custom_smartwatch
+  full_name: Custom Smartwatch
+  vendor: custom
+  socs:
+    - name: nrf5340
+      variants:
+        - name: ns
+          cpucluster: cpuapp

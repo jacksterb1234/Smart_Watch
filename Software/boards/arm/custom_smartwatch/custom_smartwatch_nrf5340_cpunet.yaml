@@ -1,0 +1,13 @@
+identifier: custom_smartwatch/nrf5340/cpunet
+name: Custom-Smartwatch-nRF5340-Network
+type: mcu
+arch: arm
+toolchain:
+  - gnuarmemb
+  - zephyr
+ram: 64
+flash: 256
+supported:
+  - bluetooth
+  - gpio
+  - watchdog

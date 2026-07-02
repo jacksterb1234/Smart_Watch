@@ -1,0 +1,107 @@
+/*
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#include "buttons.h"
+
+#include <stdint.h>
+
+#include <zephyr/dt-bindings/input/input-event-codes.h>
+#include <zephyr/input/input.h>
+#include <zephyr/kernel.h>
+#include <zephyr/logging/log.h>
+
+#include "ble_media.h"
+#include "haptics.h"
+
+LOG_MODULE_REGISTER(buttons, LOG_LEVEL_INF);
+
+#define BUTTON_HAPTIC_DURATION_MS 30
+#define BUTTON_HAPTIC_INTENSITY_PERCENT 50
+
+enum button_action {
+	BUTTON_ACTION_PLAY_PAUSE,
+	BUTTON_ACTION_NEXT_TRACK,
+	BUTTON_ACTION_PREVIOUS_TRACK,
+	BUTTON_ACTION_RESERVED,
+};
+
+K_MSGQ_DEFINE(button_msgq, sizeof(enum button_action), 4, 1);
+
+static bool action_from_input_code(uint16_t code, enum button_action *action)
+{
+	switch (code) {
+	case INPUT_KEY_0:
+		*action = BUTTON_ACTION_PLAY_PAUSE;
+		return true;
+	case INPUT_KEY_1:
+		*action = BUTTON_ACTION_NEXT_TRACK;
+		return true;
+	case INPUT_KEY_2:
+		*action = BUTTON_ACTION_PREVIOUS_TRACK;
+		return true;
+	case INPUT_KEY_3:
+		*action = BUTTON_ACTION_RESERVED;
+		return true;
+	default:
+		return false;
+	}
+}
+
+static void button_work_handler(struct k_work *work)
+{
+	ARG_UNUSED(work);
+
+	enum button_action action;
+
+	while (k_msgq_get(&button_msgq, &action, K_NO_WAIT) == 0) {
+		(void)haptics_pulse(BUTTON_HAPTIC_DURATION_MS,
+				    BUTTON_HAPTIC_INTENSITY_PERCENT);
+
+		switch (action) {
+		case BUTTON_ACTION_PLAY_PAUSE:
+			(void)ble_media_send(BLE_MEDIA_PLAY_PAUSE);
+			break;
+		case BUTTON_ACTION_NEXT_TRACK:
+			(void)ble_media_send(BLE_MEDIA_NEXT_TRACK);
+			break;
+		case BUTTON_ACTION_PREVIOUS_TRACK:
+			(void)ble_media_send(BLE_MEDIA_PREVIOUS_TRACK);
+			break;
+		case BUTTON_ACTION_RESERVED:
+			LOG_INF("SW7 reserved for display/heart-rate workflow");
+			break;
+		default:
+			break;
+		}
+	}
+}
+
+K_WORK_DEFINE(button_work, button_work_handler);
+
+static void button_input_cb(struct input_event *evt, void *user_data)
+{
+	ARG_UNUSED(user_data);
+
+	enum button_action action;
+
+	if ((evt->sync == 0U) || (evt->type != INPUT_EV_KEY) || (evt->value == 0)) {
+		return;
+	}
+
+	if (!action_from_input_code(evt->code, &action)) {
+		return;
+	}
+
+	if (k_msgq_put(&button_msgq, &action, K_NO_WAIT) == 0) {
+		(void)k_work_submit(&button_work);
+	}
+}
+
+INPUT_CALLBACK_DEFINE(NULL, button_input_cb, NULL);
+
+int buttons_init(void)
+{
+	LOG_INF("Button service ready");
+	return 0;
+}
