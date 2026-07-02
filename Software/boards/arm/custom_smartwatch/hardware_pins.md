@@ -7,8 +7,9 @@ local KiCad NORA-B106 symbol GPIO mapping.
 
 - Per user direction, the main I2C routing is corrected. Firmware maps NORA pad
   `A3` / `P1.03` as SCL and pad `B4` / `P1.02` as SDA.
-- MAX30102 remains present on I2C at `0x57`, but NCS v3.3.1 does not include a
-  MAX30102 Zephyr binding/driver. Its interrupt net is available on `P0.21`.
+- MAX30102 is represented on I2C at `0x57` using Zephyr's upstream
+  `maxim,max30101` red/IR driver path. Its active-low interrupt net is on
+  `P0.21`.
 
 ## Main I2C
 
@@ -25,7 +26,7 @@ Shared by BMI270, MAX30102, LPS22DF, nPM1300, and display touch I2C.
 | --- | --- | --- | --- |
 | `PMIC_INT` | `H1` | `P0.24` | Enabled |
 | `BMI_INT` | `C8` | `P0.22` | Enabled |
-| `MAX_INT` | `E3` | `P0.21` | Driver pending |
+| `MAX_INT` | `E3` | `P0.21` | Enabled via MAX30101-compatible driver |
 | `LPS_INT` | `A5` | `P0.20` | Enabled |
 
 ## Buttons

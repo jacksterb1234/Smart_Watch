@@ -7,7 +7,9 @@
 #include "ble_media.h"
 #include "buttons.h"
 #include "display_ui.h"
+#include "heart_rate.h"
 #include "haptics.h"
+#include "power.h"
 
 LOG_MODULE_REGISTER(smart_watch, LOG_LEVEL_INF);
 
@@ -24,7 +26,9 @@ int main(void)
 	LOG_INF("Custom smartwatch firmware starting");
 
 	LOG_DEVICE_READY(DT_NODELABEL(pmic), "nPM1300");
+	LOG_DEVICE_READY(DT_NODELABEL(pmic_charger), "nPM1300 charger");
 	LOG_DEVICE_READY(DT_NODELABEL(bmi270), "BMI270");
+	LOG_DEVICE_READY(DT_NODELABEL(max30102), "MAX30102");
 	LOG_DEVICE_READY(DT_NODELABEL(lps22df), "LPS22DF");
 	LOG_DEVICE_READY(DT_NODELABEL(display), "GC9A01");
 	LOG_DEVICE_READY(DT_NODELABEL(w25q32), "W25Q32");
@@ -52,6 +56,16 @@ int main(void)
 	err = activity_init();
 	if (err != 0) {
 		LOG_ERR("Activity tracking init failed (%d)", err);
+	}
+
+	err = heart_rate_init();
+	if (err != 0) {
+		LOG_ERR("Heart-rate service init failed (%d)", err);
+	}
+
+	err = power_init();
+	if (err != 0) {
+		LOG_ERR("Power telemetry init failed (%d)", err);
 	}
 
 	err = display_ui_init();

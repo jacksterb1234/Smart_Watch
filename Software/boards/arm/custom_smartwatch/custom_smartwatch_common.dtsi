@@ -136,6 +136,17 @@
 				regulator-max-microvolt = <3000000>;
 			};
 		};
+
+		pmic_charger: charger {
+			compatible = "nordic,npm1300-charger";
+			status = "okay";
+			term-microvolt = <4150000>;
+			current-microamp = <100000>;
+			dischg-limit-microamp = <1000000>;
+			vbus-limit-microamp = <500000>;
+			thermistor-ohms = <0>;
+			thermistor-beta = <0>;
+		};
 	};
 
 	bmi270: bmi270@68 {
@@ -152,10 +163,19 @@
 		status = "okay";
 	};
 
-	/*
-	 * MAX30102 is on the bus at 0x57, but NCS v3.3.1 does not provide a
-	 * MAX30102 binding/driver. Its interrupt net is available on P0.21.
-	 */
+	max30102: max30102@57 {
+		compatible = "maxim,max30101";
+		reg = <0x57>;
+		irq-gpios = <&gpio0 21 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+		acq-mode = "spo2";
+		smp-ave = <4>;
+		adc-rge = <8192>;
+		smp-sr = <50>;
+		led-pw = <411>;
+		led-pa = [24 24 00];
+		fifo-rollover-en;
+		status = "okay";
+	};
 };
 
 &spi4 {

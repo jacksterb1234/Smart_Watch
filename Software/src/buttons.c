@@ -12,6 +12,7 @@
 #include <zephyr/logging/log.h>
 
 #include "ble_media.h"
+#include "heart_rate.h"
 #include "haptics.h"
 
 LOG_MODULE_REGISTER(buttons, LOG_LEVEL_INF);
@@ -23,7 +24,7 @@ enum button_action {
 	BUTTON_ACTION_PLAY_PAUSE,
 	BUTTON_ACTION_NEXT_TRACK,
 	BUTTON_ACTION_PREVIOUS_TRACK,
-	BUTTON_ACTION_RESERVED,
+	BUTTON_ACTION_HEART_RATE,
 };
 
 K_MSGQ_DEFINE(button_msgq, sizeof(enum button_action), 4, 1);
@@ -41,7 +42,7 @@ static bool action_from_input_code(uint16_t code, enum button_action *action)
 		*action = BUTTON_ACTION_PREVIOUS_TRACK;
 		return true;
 	case INPUT_KEY_3:
-		*action = BUTTON_ACTION_RESERVED;
+		*action = BUTTON_ACTION_HEART_RATE;
 		return true;
 	default:
 		return false;
@@ -68,8 +69,10 @@ static void button_work_handler(struct k_work *work)
 		case BUTTON_ACTION_PREVIOUS_TRACK:
 			(void)ble_media_send(BLE_MEDIA_PREVIOUS_TRACK);
 			break;
-		case BUTTON_ACTION_RESERVED:
-			LOG_INF("SW7 reserved for display/heart-rate workflow");
+		case BUTTON_ACTION_HEART_RATE:
+			if (heart_rate_start_measurement() != 0) {
+				LOG_WRN("Heart-rate measurement could not start");
+			}
 			break;
 		default:
 			break;

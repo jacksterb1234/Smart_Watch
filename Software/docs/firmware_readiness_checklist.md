@@ -12,8 +12,8 @@ does not mean audio playback or streaming from the watch hardware.
 
 - [x] Custom Zephyr board target exists for `custom_smartwatch/nrf5340/cpuapp`.
 - [x] Board definition builds successfully with NCS v3.3.1.
-- [x] Main I2C bus is mapped for nPM1300, BMI270, LPS22DF, and future MAX30102 support.
-- [x] PMIC, BMI270, and LPS22DF interrupt GPIOs are represented.
+- [x] Main I2C bus is mapped for nPM1300, BMI270, LPS22DF, and MAX30102 support.
+- [x] PMIC, BMI270, LPS22DF, and MAX30102 interrupt GPIOs are represented.
 - [x] Four user buttons are mapped through `gpio-keys`.
 - [x] GC9A01 display SPI bus is represented.
 - [x] W25Q32 QSPI flash is represented.
@@ -30,7 +30,12 @@ does not mean audio playback or streaming from the watch hardware.
 - [x] Button events are deferred through static work and mapped to media actions.
 - [x] Basic BMI270 step tracking is implemented through Zephyr Sensor API scheduled work.
 - [x] Step totals are persisted through Zephyr settings/NVS with throttled writes.
-- [x] Basic GC9A01 display UI renders BLE state, step count, heart-rate placeholder, and battery placeholder.
+- [x] Basic GC9A01 display UI renders BLE state, step count, heart-rate status, and live battery/USB state.
+- [x] MAX30102 is represented using Zephyr's upstream `maxim,max30101` red/IR driver path.
+- [x] SW7 starts a bounded MAX30102 heart-rate measurement.
+- [x] nPM1300 charger telemetry node is represented with charging intentionally disabled until the battery profile is confirmed.
+- [x] nPM1300 battery voltage/current/USB telemetry is sampled through the upstream charger driver.
+- [x] BLE Battery Service level is updated from the nPM1300 voltage estimate.
 - [x] Current app code has been checked for no `malloc`/`free`, no `printf`, no polling main loop, and no blocking sleep calls.
 
 ## Before First Useful Flash
@@ -47,23 +52,28 @@ does not mean audio playback or streaming from the watch hardware.
 - [ ] Verify all four buttons generate input events with the expected active-low polarity.
 - [ ] Verify DRV2603 enable plus PWM produces controlled haptic output.
 - [x] Add Bluetooth LE support for nRF5340 using sysbuild so the network-core controller image is included.
-- [ ] Add MAX30102 support. If NCS v3.3.1 still lacks an upstream driver, add a small local driver with Zephyr Sensor API-style access.
+- [x] Add MAX30102 support using the upstream MAX30101-compatible Zephyr Sensor API driver.
+- [ ] Confirm the MAX30102 part ID matches the upstream driver's expected ID on real hardware.
 
 ## Product Firmware
 
 - [x] Add a static button service that maps SW4 to play/pause, SW5 to next, SW6 to previous, and SW7 to screen cycle or heart-rate check.
 - [x] Add Bluetooth pairing, bonding, reconnect, and HID-over-GATT Consumer Control media keys.
 - [x] Add a baseline display UI for BLE status, step count, heart-rate placeholder, and battery/charge placeholder.
-- [ ] Replace display placeholders with live heart-rate and battery/charge data.
+- [x] Replace battery/charge display placeholder with live nPM1300 telemetry.
+- [x] Replace heart-rate display placeholder with live MAX30102 measurement status and BPM when available.
 - [x] Add BMI270 step tracking using Zephyr Sensor API data and interrupt/workqueue processing.
-- [ ] Add MAX30102 heart-rate sampling with signal-quality handling.
+- [x] Add MAX30102 heart-rate sampling with no-finger and poor-signal handling.
+- [ ] Tune MAX30102 LED current, thresholds, and BPM filtering on real wrist/finger data.
 - [x] Add haptic feedback patterns using `LRA_EN` and PWM without blocking delays.
 - [x] Add persistent storage for Bluetooth bonding/settings data.
 - [x] Add persistent storage for step totals.
 - [ ] Add persistent storage for simple user settings.
-- [ ] Add nPM1300 charger, battery, and rail status reporting.
+- [x] Add nPM1300 charger and battery telemetry reporting.
+- [ ] Add nPM1300 regulator rail diagnostics if hardware bring-up shows they are needed.
+- [ ] Confirm battery charge current, termination voltage, and thermistor setup before enabling nPM1300 charging.
 - [ ] Add power-management states for display off, sensor idle, BLE connected idle, and deep sleep.
-- [ ] Audit app code for no dynamic allocation, no `printf`, no polling main loop, and no blocking delays in steady-state behavior.
+- [x] Audit app code for no dynamic allocation, no `printf`, no polling main loop, and no blocking delays in steady-state behavior.
 
 ## Acceptance Tests
 

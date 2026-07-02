@@ -17,6 +17,8 @@
 #include "activity.h"
 #include "backlight.h"
 #include "ble_media.h"
+#include "heart_rate.h"
+#include "power.h"
 
 LOG_MODULE_REGISTER(display_ui, LOG_LEVEL_INF);
 
@@ -197,6 +199,11 @@ static void glyph_rows(char c, uint8_t rows[UI_FONT_HEIGHT])
 		glyph = g;
 		break;
 	}
+	case 'U': {
+		static const uint8_t g[UI_FONT_HEIGHT] = { 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x0e };
+		glyph = g;
+		break;
+	}
 	case 'V': {
 		static const uint8_t g[UI_FONT_HEIGHT] = { 0x11, 0x11, 0x11, 0x11, 0x0a, 0x0a, 0x04 };
 		glyph = g;
@@ -286,6 +293,19 @@ static size_t append_u32(char *dst, size_t dst_len, size_t pos, uint32_t value)
 	return pos;
 }
 
+static size_t append_text(char *dst, size_t dst_len, size_t pos, const char *text)
+{
+	while ((*text != '\0') && (pos + 1U < dst_len)) {
+		dst[pos++] = *text++;
+	}
+
+	if (dst_len > 0U) {
+		dst[pos] = '\0';
+	}
+
+	return pos;
+}
+
 static const char *ble_status_text(void)
 {
 	switch (ble_media_get_status()) {
@@ -298,6 +318,72 @@ static const char *ble_status_text(void)
 	case BLE_MEDIA_STATUS_DISABLED:
 	default:
 		return "DISABLED";
+	}
+}
+
+static void build_battery_text(char *dst, size_t dst_len)
+{
+	struct power_status status;
+	size_t pos = 0U;
+
+	power_get_status(&status);
+
+	pos = append_text(dst, dst_len, pos, "BAT ");
+	if (status.fault) {
+		(void)append_text(dst, dst_len, pos, "ERR");
+		return;
+	}
+
+	if (status.battery_percent_valid) {
+		pos = append_u32(dst, dst_len, pos, status.battery_percent);
+		pos = append_text(dst, dst_len, pos, "%");
+	} else {
+		pos = append_text(dst, dst_len, pos, "--%");
+	}
+
+	if (status.charging) {
+		(void)append_text(dst, dst_len, pos, " CHG");
+	} else if (status.vbus_present) {
+		(void)append_text(dst, dst_len, pos, " USB");
+	}
+}
+
+static void build_heart_rate_text(char *dst, size_t dst_len)
+{
+	struct heart_rate_status status;
+	size_t pos = 0U;
+
+	heart_rate_get_status(&status);
+
+	pos = append_text(dst, dst_len, pos, "HR ");
+	if (status.bpm_valid) {
+		pos = append_u32(dst, dst_len, pos, status.bpm);
+		(void)append_text(dst, dst_len, pos, " BPM");
+		return;
+	}
+
+	switch (status.state) {
+	case HEART_RATE_DISABLED:
+		(void)append_text(dst, dst_len, pos, "OFF");
+		break;
+	case HEART_RATE_SEARCHING:
+	case HEART_RATE_MEASURING:
+		(void)append_text(dst, dst_len, pos, "MEAS");
+		break;
+	case HEART_RATE_NO_FINGER:
+		(void)append_text(dst, dst_len, pos, "NO FINGER");
+		break;
+	case HEART_RATE_POOR_SIGNAL:
+		(void)append_text(dst, dst_len, pos, "POOR SIG");
+		break;
+	case HEART_RATE_SENSOR_ERROR:
+		(void)append_text(dst, dst_len, pos, "ERROR");
+		break;
+	case HEART_RATE_IDLE:
+	case HEART_RATE_READY:
+	default:
+		(void)append_text(dst, dst_len, pos, "-- BPM");
+		break;
 	}
 }
 
@@ -331,6 +417,8 @@ static int render_ui(void)
 	const uint16_t panel = RGB565(18, 28, 31);
 	const uint16_t accent = RGB565(42, 210, 180);
 	char steps_text[11];
+	char hr_text[16];
+	char battery_text[16];
 	struct display_buffer_descriptor desc = {
 		.buf_size = sizeof(framebuffer),
 		.width = UI_WIDTH,
@@ -351,8 +439,10 @@ static int render_ui(void)
 	(void)append_u32(steps_text, sizeof(steps_text), 0U, activity_get_steps());
 	draw_text(84, 118, steps_text, 3, accent);
 
-	draw_text(42, 164, "HR -- BPM", 2, text);
-	draw_text(42, 190, "BAT --%", 2, text);
+	build_heart_rate_text(hr_text, sizeof(hr_text));
+	draw_text(42, 164, hr_text, 2, text);
+	build_battery_text(battery_text, sizeof(battery_text));
+	draw_text(42, 190, battery_text, 2, text);
 
 	err = display_write(display, 0, 0, &desc, framebuffer);
 	if (err != 0) {

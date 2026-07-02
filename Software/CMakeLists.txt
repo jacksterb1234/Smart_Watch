@@ -9,6 +9,8 @@ target_sources(app PRIVATE
   src/ble_media.c
   src/buttons.c
   src/display_ui.c
+  src/heart_rate.c
   src/haptics.c
   src/main.c
+  src/power.c
 )
