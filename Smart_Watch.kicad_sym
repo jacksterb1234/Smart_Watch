@@ -5893,7 +5893,7 @@
 			)
 		)
 		(property "Footprint" "ubloxLib:NORA_LGA82R_1430X1040X190_ANT"
-			(at 0 0 0)
+			(at -9.398 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -5915,7 +5915,7 @@
 			)
 		)
 		(property "Description" "NORA-B206, NORA-B216, and NORA-B226"
-			(at 0 0 0)
+			(at -9.144 4.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6086,7 +6086,7 @@
 			(pin bidirectional line
 				(at -33.02 -38.1 0)
 				(length 7.62)
-				(name "IO/TSCK/FSPIWP1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6122,7 +6122,7 @@
 			(pin bidirectional line
 				(at 22.86 -10.16 180)
 				(length 7.62)
-				(name "IO"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6374,7 +6374,7 @@
 			(pin power_in line
 				(at 22.86 5.08 180)
 				(length 7.62)
-				(name "VBUS"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6500,7 +6500,7 @@
 			(pin bidirectional line
 				(at 22.86 -53.34 180)
 				(length 7.62)
-				(name "D+"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6554,7 +6554,7 @@
 			(pin bidirectional line
 				(at -33.02 -25.4 0)
 				(length 7.62)
-				(name "IO/AIN/FSPIHD1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6572,7 +6572,7 @@
 			(pin bidirectional line
 				(at -33.02 -66.04 0)
 				(length 7.62)
-				(name "IO"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6608,7 +6608,7 @@
 			(pin bidirectional line
 				(at 22.86 -55.88 180)
 				(length 7.62)
-				(name "D-"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6662,7 +6662,7 @@
 			(pin bidirectional line
 				(at -33.02 -60.96 0)
 				(length 7.62)
-				(name "IO/RMII_RXD1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6716,7 +6716,7 @@
 			(pin bidirectional line
 				(at -33.02 -22.86 0)
 				(length 7.62)
-				(name "IO/AIN"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6806,7 +6806,7 @@
 			(pin bidirectional line
 				(at -33.02 -55.88 0)
 				(length 7.62)
-				(name "IO/RMII_RXD0"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6860,7 +6860,7 @@
 			(pin bidirectional line
 				(at 22.86 -27.94 180)
 				(length 7.62)
-				(name "IO/BOOT"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6914,7 +6914,7 @@
 			(pin bidirectional line
 				(at 22.86 -25.4 180)
 				(length 7.62)
-				(name "IO/TDO"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6932,7 +6932,7 @@
 			(pin bidirectional line
 				(at -33.02 -73.66 0)
 				(length 7.62)
-				(name "IO/AIN/RMII_MDIO"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6950,7 +6950,7 @@
 			(pin bidirectional line
 				(at -33.02 -71.12 0)
 				(length 7.62)
-				(name "IO/AIN/RMII_MDCLK"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6968,7 +6968,7 @@
 			(pin bidirectional line
 				(at 22.86 -20.32 180)
 				(length 7.62)
-				(name "IO/RMII_CLK"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6986,7 +6986,7 @@
 			(pin bidirectional line
 				(at 22.86 -30.48 180)
 				(length 7.62)
-				(name "IO/RF_CTRL1/CTX"
+				(name "NC_(J8)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7004,7 +7004,7 @@
 			(pin bidirectional line
 				(at 22.86 -33.02 180)
 				(length 7.62)
-				(name "IO/RF_CTRL2/CRX"
+				(name "NC_(C8)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7058,7 +7058,7 @@
 			(pin bidirectional line
 				(at -33.02 -68.58 0)
 				(length 7.62)
-				(name "IO/TDI"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7094,7 +7094,7 @@
 			(pin bidirectional line
 				(at -33.02 -76.2 0)
 				(length 7.62)
-				(name "IO/AIN/RMII_TXEN"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7112,7 +7112,7 @@
 			(pin bidirectional line
 				(at -33.02 -81.28 0)
 				(length 7.62)
-				(name "IO"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7166,7 +7166,7 @@
 			(pin passive line
 				(at 22.86 -74.93 180)
 				(length 7.62)
-				(name "VDD_SPI"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7220,7 +7220,7 @@
 			(pin bidirectional line
 				(at 22.86 -77.47 180)
 				(length 7.62)
-				(name "IO"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7238,7 +7238,7 @@
 			(pin bidirectional line
 				(at 22.86 -80.01 180)
 				(length 7.62)
-				(name "IO"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7256,7 +7256,7 @@
 			(pin bidirectional line
 				(at 22.86 -35.56 180)
 				(length 7.62)
-				(name "IO/RMII_CRS"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7310,7 +7310,7 @@
 			(pin passive line
 				(at 22.86 -85.09 180)
 				(length 7.62)
-				(name "ANT2"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7418,7 +7418,7 @@
 			(pin passive line
 				(at 22.86 -82.55 180)
 				(length 7.62)
-				(name "ANT1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)

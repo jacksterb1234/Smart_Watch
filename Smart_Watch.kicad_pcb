@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.6)
+		(thickness 1)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -39,6 +39,7 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(material "1")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
@@ -64,7 +65,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.24)
+				(thickness 0.64)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -113,6 +114,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(aux_axis_origin 172.15 107.85)
 		(grid_origin 172.15 107.85)
 		(pcbplotparams
