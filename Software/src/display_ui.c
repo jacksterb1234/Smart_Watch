@@ -38,6 +38,7 @@ LOG_MODULE_REGISTER(display_ui, LOG_LEVEL_INF);
 static const struct device *const display = DEVICE_DT_GET(DISPLAY_NODE);
 static uint16_t framebuffer[UI_WIDTH * UI_HEIGHT];
 static bool display_ui_ready;
+static bool display_ui_awake;
 
 static void glyph_rows(char c, uint8_t rows[UI_FONT_HEIGHT])
 {
@@ -463,7 +464,7 @@ static void display_work_handler(struct k_work *work)
 {
 	ARG_UNUSED(work);
 
-	if (!display_ui_ready) {
+	if (!display_ui_ready || !display_ui_awake) {
 		return;
 	}
 
@@ -499,9 +500,11 @@ int display_ui_init(void)
 	}
 
 	display_ui_ready = true;
+	display_ui_awake = true;
 	err = render_ui();
 	if (err != 0) {
 		display_ui_ready = false;
+		display_ui_awake = false;
 		return err;
 	}
 
@@ -514,9 +517,52 @@ int display_ui_init(void)
 	return 0;
 }
 
+int display_ui_set_awake(bool awake)
+{
+	int err;
+
+	if (!display_ui_ready) {
+		return -EAGAIN;
+	}
+
+	if (awake) {
+		display_ui_awake = true;
+		err = render_ui();
+		if (err != 0) {
+			return err;
+		}
+
+		err = backlight_set(true);
+		if (err != 0) {
+			LOG_WRN("Backlight wake failed (%d)", err);
+		}
+
+		return err;
+	}
+
+	err = backlight_set(false);
+	if (err != 0) {
+		LOG_WRN("Backlight sleep failed (%d)", err);
+	}
+
+	err = display_blanking_on(display);
+	if ((err != 0) && (err != -ENOSYS)) {
+		LOG_WRN("Display blanking on failed (%d)", err);
+		return err;
+	}
+
+	display_ui_awake = false;
+	return 0;
+}
+
+bool display_ui_is_awake(void)
+{
+	return display_ui_ready && display_ui_awake;
+}
+
 void display_ui_request_update(void)
 {
-	if (!display_ui_ready) {
+	if (!display_ui_ready || !display_ui_awake) {
 		return;
 	}
 

@@ -11,14 +11,15 @@
 #include <zephyr/kernel.h>
 #include <zephyr/logging/log.h>
 
+#include "app_settings.h"
 #include "ble_media.h"
 #include "heart_rate.h"
 #include "haptics.h"
+#include "power_manager.h"
 
 LOG_MODULE_REGISTER(buttons, LOG_LEVEL_INF);
 
 #define BUTTON_HAPTIC_DURATION_MS 30
-#define BUTTON_HAPTIC_INTENSITY_PERCENT 50
 
 enum button_action {
 	BUTTON_ACTION_PLAY_PAUSE,
@@ -56,8 +57,12 @@ static void button_work_handler(struct k_work *work)
 	enum button_action action;
 
 	while (k_msgq_get(&button_msgq, &action, K_NO_WAIT) == 0) {
-		(void)haptics_pulse(BUTTON_HAPTIC_DURATION_MS,
-				    BUTTON_HAPTIC_INTENSITY_PERCENT);
+		power_manager_notify_user_activity();
+
+		if (app_settings_haptics_enabled()) {
+			(void)haptics_pulse(BUTTON_HAPTIC_DURATION_MS,
+					    app_settings_haptic_intensity_percent());
+		}
 
 		switch (action) {
 		case BUTTON_ACTION_PLAY_PAUSE:

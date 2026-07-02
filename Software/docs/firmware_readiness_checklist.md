@@ -33,9 +33,11 @@ does not mean audio playback or streaming from the watch hardware.
 - [x] Basic GC9A01 display UI renders BLE state, step count, heart-rate status, and live battery/USB state.
 - [x] MAX30102 is represented using Zephyr's upstream `maxim,max30101` red/IR driver path.
 - [x] SW7 starts a bounded MAX30102 heart-rate measurement.
-- [x] nPM1300 charger telemetry node is represented with charging intentionally disabled until the battery profile is confirmed.
+- [x] nPM1300 charger profile is configured for a 4.2 V, 200 mA, no-thermistor single-cell LiPo.
 - [x] nPM1300 battery voltage/current/USB telemetry is sampled through the upstream charger driver.
 - [x] BLE Battery Service level is updated from the nPM1300 voltage estimate.
+- [x] Simple user settings are persisted through Zephyr settings/NVS.
+- [x] Display-off power state blanks the GC9A01 and disables the backlight after a persisted timeout.
 - [x] Current app code has been checked for no `malloc`/`free`, no `printf`, no polling main loop, and no blocking sleep calls.
 
 ## Before First Useful Flash
@@ -68,11 +70,12 @@ does not mean audio playback or streaming from the watch hardware.
 - [x] Add haptic feedback patterns using `LRA_EN` and PWM without blocking delays.
 - [x] Add persistent storage for Bluetooth bonding/settings data.
 - [x] Add persistent storage for step totals.
-- [ ] Add persistent storage for simple user settings.
+- [x] Add persistent storage for simple user settings.
 - [x] Add nPM1300 charger and battery telemetry reporting.
 - [ ] Add nPM1300 regulator rail diagnostics if hardware bring-up shows they are needed.
-- [ ] Confirm battery charge current, termination voltage, and thermistor setup before enabling nPM1300 charging.
-- [ ] Add power-management states for display off, sensor idle, BLE connected idle, and deep sleep.
+- [x] Confirm battery charge current, termination voltage, and thermistor setup before enabling nPM1300 charging.
+- [x] Add display-off power state with button wake and persisted timeout.
+- [ ] Add sensor idle, BLE connected idle, and deep-sleep states after first current measurements.
 - [x] Audit app code for no dynamic allocation, no `printf`, no polling main loop, and no blocking delays in steady-state behavior.
 
 ## Acceptance Tests

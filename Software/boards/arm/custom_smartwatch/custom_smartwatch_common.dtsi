@@ -140,12 +140,13 @@
 		pmic_charger: charger {
 			compatible = "nordic,npm1300-charger";
 			status = "okay";
-			term-microvolt = <4150000>;
-			current-microamp = <100000>;
+			term-microvolt = <4200000>;
+			current-microamp = <200000>;
 			dischg-limit-microamp = <1000000>;
 			vbus-limit-microamp = <500000>;
 			thermistor-ohms = <0>;
 			thermistor-beta = <0>;
+			charging-enable;
 		};
 	};
 

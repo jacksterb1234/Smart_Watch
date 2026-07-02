@@ -5,6 +5,7 @@ project(Software)
 
 target_sources(app PRIVATE
   src/activity.c
+  src/app_settings.c
   src/backlight.c
   src/ble_media.c
   src/buttons.c
@@ -13,4 +14,5 @@ target_sources(app PRIVATE
   src/haptics.c
   src/main.c
   src/power.c
+  src/power_manager.c
 )

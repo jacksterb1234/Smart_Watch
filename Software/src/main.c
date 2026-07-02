@@ -3,6 +3,7 @@
 #include <zephyr/logging/log.h>
 
 #include "activity.h"
+#include "app_settings.h"
 #include "backlight.h"
 #include "ble_media.h"
 #include "buttons.h"
@@ -10,6 +11,7 @@
 #include "heart_rate.h"
 #include "haptics.h"
 #include "power.h"
+#include "power_manager.h"
 
 LOG_MODULE_REGISTER(smart_watch, LOG_LEVEL_INF);
 
@@ -43,6 +45,11 @@ int main(void)
 		LOG_ERR("Haptics init failed (%d)", err);
 	}
 
+	err = app_settings_init();
+	if (err != 0) {
+		LOG_ERR("User settings init failed (%d)", err);
+	}
+
 	err = ble_media_init();
 	if (err != 0) {
 		LOG_ERR("BLE media init failed (%d)", err);
@@ -71,6 +78,11 @@ int main(void)
 	err = display_ui_init();
 	if (err != 0) {
 		LOG_ERR("Display UI init failed (%d)", err);
+	}
+
+	err = power_manager_init();
+	if (err != 0) {
+		LOG_ERR("Power manager init failed (%d)", err);
 	}
 
 	return 0;

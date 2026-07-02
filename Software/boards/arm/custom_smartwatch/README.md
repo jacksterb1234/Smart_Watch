@@ -25,3 +25,6 @@ buttons, GC9A01 display SPI, W25Q32 QSPI flash, FAN5622 backlight GPIO, and
 DRV2603 haptic PWM/enable pins where Zephyr has suitable upstream bindings. The
 sysbuild path also builds the nRF5340 network-core `ipc_radio` image for BLE
 HCI IPC.
+
+The nPM1300 charger profile is configured for a single-cell LiPo with 4.2 V
+termination, 200 mA charge current, 3.7 V nominal voltage, and no thermistor.
